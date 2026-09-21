@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Timeline from '../components/Timeline.astro';
+import { timelines, inTimeline, href } from '../data.mjs';
+const timeline = timelines.find((t) => t.id === 'main');
+---
+<Layout>
+  <section class="hero"><div><p class="eyebrow">AN OPEN CHRONICLE OF ARTIFICIAL INTELLIGENCE</p><h1>每一次转折，<br />都有它的来路。</h1><p class="hero-intro">AI 大事记，为从业者保留值得回看的节点。<br class="desktop-break" />从一项新技术出发，找到它的前因与演进。</p></div><div class="hero-side"><span class="hero-number">1950<span>—</span>NOW</span><p>一条精选主线<br />多种理解 AI 的视角</p><a href={href('about/')}>我们如何筛选事件 →</a></div></section>
+  <div class="topic-strip"><span class="eyebrow">换一个视角</span><a class="selected" href={href()}>AI 主时间线 <span>01</span></a><a href={href('timelines/agents/')}>Agent 演进 <span>02 ↗</span></a></div>
+  <Timeline timeline={timeline} items={inTimeline('main')} />
+</Layout>

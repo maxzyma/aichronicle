@@ -4,7 +4,7 @@ An open chronicle of AI milestones, with a curated main timeline, complementary 
 
 当一项新技术出现时，回看它从哪里来、经历了哪些关键转折，以及它与其他事件有什么关系。
 
-AI Chronicle 面向 AI 从业者，记录值得长期回看的行业事件。项目计划作为 [The Untold](https://theuntold.ai) 旗下独立子站发布。
+AI Chronicle 面向 AI 从业者，记录值得长期回看的行业事件。项目作为 [The Untold](https://theuntold.ai) 旗下独立子站发布。
 
 ## 主线与专题
 
@@ -17,11 +17,21 @@ AI Chronicle 面向 AI 从业者，记录值得长期回看的行业事件。项
 
 自动化发现候选，人工核实来源、日期与事实，并判断适合进入哪条时间线。只有经过人工审核的事件才进入正式记录。事实、影响判断和后续发展分别记录，允许有据可查的修订。
 
-完整规则见[编辑规范](docs/editorial.md)。
+完整规则见[编辑规范](specs/editorial.md)。
+
+## 仓库导航
+
+- [规格设计](specs/README.md)
+- [原始素材与出处](sources/README.md)
+- [研究与总结](research/README.md)
+- [事件与时间线](content/README.md)
+- [自动化](automation/README.md)
+- [站点源码](site/README.md)
+- [运行、审核与发布](docs/runbook.md)
 
 ## 参与与建设
 
-仓库目前处于初始化阶段，尚未上线时间线网站，也未启用自动采集。下一步是用真实事件样本确定数据结构和阅读方式，见[路线图](docs/roadmap.md)。
+建设按[实施计划](docs/implementation-plan.md)推进，覆盖目录结构、素材接入、首轮研究、静态站点与持续自动化；当前阶段见[路线图](docs/roadmap.md)。
 
 - 提议事件、纠正事实、补充来源：[贡献指南](CONTRIBUTING.md)
 - 准备事件内容：[事件模板](templates/event.md)

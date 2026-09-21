@@ -1,0 +1,172 @@
+{
+  "id": "main",
+  "title": "AI 大事记",
+  "subtitle": "改变方向的节点",
+  "description": "从基础研究到模型、产品、科学与治理，回看 AI 如何走到今天。",
+  "entries": [
+    {
+      "event": "turing-test",
+      "reason": "把抽象的智能问题转向可观察的交互表现。"
+    },
+    {
+      "event": "dartmouth",
+      "reason": "形成早期 AI 研究共同体；1955 年提案与 1956 年活动应区分。"
+    },
+    {
+      "event": "backprop",
+      "reason": "推动多层神经网络训练；不将其表述为反向传播方法的唯一发明起点。"
+    },
+    {
+      "event": "deep-blue",
+      "reason": "展示专用搜索与计算的力量，不能由此推导通用智能。"
+    },
+    {
+      "event": "alexnet",
+      "reason": "数据、算力与深度学习的组合进入视觉任务的核心路线。"
+    },
+    {
+      "event": "gan",
+      "reason": "拓展神经网络生成数据的研究路线。"
+    },
+    {
+      "event": "alphago",
+      "reason": "深度学习、强化学习与搜索结合在复杂决策中获得标志性验证。"
+    },
+    {
+      "event": "transformer",
+      "reason": "为后续语言模型扩展提供关键架构基础。"
+    },
+    {
+      "event": "bert",
+      "reason": "预训练与下游微调成为语言理解的重要范式。"
+    },
+    {
+      "event": "scaling-laws",
+      "reason": "提供资源配置的经验性依据，结论有任务与实验范围。"
+    },
+    {
+      "event": "rag",
+      "reason": "为调用外部知识与更新知识提供通用思路。"
+    },
+    {
+      "event": "gpt3",
+      "reason": "提示与上下文成为适配任务的重要接口。"
+    },
+    {
+      "event": "alphafold2",
+      "reason": "AI 对科学研究的影响超出语言与视觉应用；不等同于解决全部蛋白质折叠问题。"
+    },
+    {
+      "event": "clip",
+      "reason": "连接文本与图像表示，推动开放词汇视觉任务；这里记录论文首版日期。"
+    },
+    {
+      "event": "latent-diffusion",
+      "reason": "成为后续开放图像生成系统的重要技术基础。"
+    },
+    {
+      "event": "chain-of-thought",
+      "reason": "使推理过程成为可设计的提示结构；文本推理并不保证正确。"
+    },
+    {
+      "event": "instructgpt",
+      "reason": "将指令遵循与偏好对齐放到语言模型产品化的中心。"
+    },
+    {
+      "event": "chinchilla",
+      "reason": "提醒模型扩展需要同时考虑训练数据，而不能只增加参数。"
+    },
+    {
+      "event": "react",
+      "reason": "为工具调用、环境反馈和多步任务提供可复用的 Agent 结构。"
+    },
+    {
+      "event": "chatgpt",
+      "reason": "让自然语言交互成为生成式 AI 的大众入口。"
+    },
+    {
+      "event": "llama",
+      "reason": "推动可获取权重的语言模型生态；原始许可不能笼统称为无条件开源。"
+    },
+    {
+      "event": "gpt4",
+      "reason": "提高复杂任务的可用性；发布时不同能力的实际开放范围有区别。"
+    },
+    {
+      "event": "generative-agents",
+      "reason": "展示长程状态与多 Agent 交互的研究方向，不代表真实社会行为已经可预测。"
+    },
+    {
+      "event": "function-calling",
+      "reason": "降低语言模型连接外部工具的工程成本；执行权限仍由应用负责。"
+    },
+    {
+      "event": "gemini15",
+      "reason": "长上下文让大型资料集与长任务历史进入模型输入，但不自动等于可靠记忆。"
+    },
+    {
+      "event": "eu-ai-act",
+      "reason": "AI 治理进入分阶段实施的法规框架；生效不意味着所有条款同日适用。"
+    },
+    {
+      "event": "computer-use",
+      "reason": "Agent 的行动面从预定义 API 扩展到图形界面，可靠性与权限边界仍需管理。"
+    },
+    {
+      "event": "mcp",
+      "reason": "尝试将重复的工具集成抽象为共享接口。"
+    },
+    {
+      "event": "deepseekv3",
+      "reason": "提供高能力模型训练效率的公开技术材料；日期指报告首版。"
+    },
+    {
+      "event": "deepseekr1",
+      "reason": "让推理训练与可获取权重模型成为更广泛的研究和部署对象；日期指报告首版。"
+    },
+    {
+      "event": "claude-code",
+      "reason": "编程 Agent 从代码建议延伸到读取项目、编辑与运行工具的任务循环。"
+    },
+    {
+      "event": "responses-api",
+      "reason": "把工具使用和 Agent 编排作为开发接口的明确能力。"
+    },
+    {
+      "event": "a2a",
+      "reason": "将 Agent 之间的互操作与模型到工具的连接区分开来。"
+    },
+    {
+      "event": "qwen3",
+      "reason": "扩大开放模型的部署与研究选择；各制品的许可和实际可用性需分别查阅。"
+    },
+    {
+      "event": "claude-agent-sdk",
+      "reason": "让用于编程 Agent 的部分执行能力可被用于构建其他 Agent 应用。"
+    },
+    {
+      "event": "model-hardware-standard",
+      "reason": "工具互操作开始延伸到实验室硬件；预览不代表已广泛部署。"
+    },
+    {
+      "event": "astra-risk-assessment",
+      "reason": "近期治理候选：保留厂商自评边界，等待人工判断是否足以进入主线。"
+    },
+    {
+      "event": "context-engineering",
+      "reason": "把关注点从单条提示扩展到整个任务过程的信息管理；不将文章日期认作术语诞生日期。"
+    },
+    {
+      "event": "agent-skills",
+      "reason": "让领域工作方法成为可组合、按需载入的能力包。"
+    },
+    {
+      "event": "mcp-foundation",
+      "reason": "开放接口的治理从单一厂商发起走向基金会承载，技术维护仍由维护者负责。"
+    },
+    {
+      "event": "harness-engineering",
+      "reason": "将可靠执行的关注点扩展到模型外部的运行环境与验证机制；不声称该文章发明了这一概念。"
+    }
+  ]
+}

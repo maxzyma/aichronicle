@@ -8,7 +8,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^\s)]+)\)")
-DOC_ROOTS = ("docs", "templates")
+DOC_ROOTS = ("docs", "templates", "specs", "sources", "research", "content", "automation", "site")
 ROOT_DOCS = ("README.md", "CONTRIBUTING.md", "LICENSE-CONTENT.md")
 
 
@@ -35,7 +35,7 @@ def walk(path: Path, visited: frozenset[Path]) -> frozenset[Path]:
 
 def main() -> int:
     documents = tuple(ROOT / name for name in ROOT_DOCS) + tuple(
-        path for folder in DOC_ROOTS for path in (ROOT / folder).rglob("*.md")
+        path for folder in DOC_ROOTS for path in (ROOT / folder).rglob("*.md") if not any(part in ("node_modules", "dist", "review-dist", ".astro") for part in path.parts)
     )
     missing = tuple(path for path in documents if not path.is_file())
     broken = tuple(

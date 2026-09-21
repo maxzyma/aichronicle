@@ -1,0 +1,37 @@
+---
+import '../styles/base.css';
+import { href, review } from '../data.mjs';
+const { title = 'AI 大事记', description = '回看人工智能的重要转折，理解下一步从哪里来。', active = 'timeline' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · AI Chronicle</title>
+    <meta name="description" content={description} />
+    {review && <meta name="robots" content="noindex,nofollow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={href('favicon.svg')} />
+    <meta name="theme-color" content="#f8f7f3" />
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="masthead shell">
+      <a class="brand" href={href()} aria-label="AI Chronicle 首页"><span class="brand-dot"></span> AI CHRONICLE <span class="brand-note">by The Untold</span></a>
+      <nav aria-label="主导航">
+        <a class:list={{active: active === 'timeline'}} href={href()}>时间线</a>
+        <a class:list={{active: active === 'agents'}} href={href('timelines/agents/')}>Agent 演进</a>
+        <a class:list={{active: active === 'about'}} href={href('about/')}>关于</a>
+        <a class="github" href="https://github.com/maxzyma/aichronicle" aria-label="GitHub 开源仓库">GitHub ↗</a>
+      </nav>
+    </header>
+    {review && <div class="review-banner shell">编辑预览 · 本页包含待人工核实的候选事件，不属于正式收录。</div>}
+    <main id="main" class="shell"><slot /></main>
+    <footer class="shell footer">
+      <div><a class="footer-brand" href="https://theuntold.ai">THE UNTOLD <span>↗</span></a><p>记录转折，理解演进。</p></div>
+      <div><a href={href('about/')}>筛选与来源</a><a href="https://github.com/maxzyma/aichronicle/issues/new/choose">补充与纠错 ↗</a><p>原创内容 CC BY 4.0 · 代码 MIT</p></div>
+    </footer>
+  </body>
+</html>

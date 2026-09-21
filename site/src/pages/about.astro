@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { batch, href } from '../data.mjs';
+---
+<Layout title="关于与编辑方法" active="about"><article class="reading"><p class="eyebrow">ABOUT THE CHRONICLE</p><h1>让新事物，有迹可循。</h1><p class="lede">AI Chronicle 是 The Untold 旗下的开放 AI 大事记，服务于需要回顾技术来路的 AI 从业者。</p><h2>什么值得进入主线</h2><p>我们优先记录改变能力边界、成本结构、使用方式、基础设施或治理约束的事件。发布频率、厂商声量与排行榜名次本身不足以构成入选理由。</p><p>主线保留行业转折。专题允许更细的观察视角，例如 Agent 的推理、工具、记忆与执行环境。相同事件共享事实记录，入选理由随视角补充。</p><h2>怎样保证可追溯</h2><p>自动化收集候选，编辑核实日期、原始出处和事实，再判断是否收录。每个正式事件都有来源与审核记录；事实变化后需要重新审核。研究论文、产品预览、正式开放和法规生效分别记载。</p><h2>覆盖边界</h2><p>本轮研究截点为 {batch.research_cutoff.slice(0,10)}。历史骨架与近期研究仍在扩充，空白不代表没有发生重要事件。日期只能确定到年或月时，我们保留这一精度。</p><p>原创摘要和影响判断采用 CC BY 4.0；第三方材料保留原有权利，不在本站重新授权。</p><h2>共同完善这份档案</h2><p><a href="https://github.com/maxzyma/aichronicle">浏览源码与材料 ↗</a>，或通过 <a href="https://github.com/maxzyma/aichronicle/issues/new/choose">GitHub 提交候选与纠错 ↗</a>。带上原始出处和你认为值得记录的理由。</p><p><a href={href()}>回到时间线 →</a></p></article></Layout>

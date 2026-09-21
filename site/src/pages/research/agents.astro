@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { href, review, inTimeline } from '../../data.mjs';
+const published = ['react', 'mcp', 'a2a', 'agent-skills', 'harness-engineering'].every((id) => inTimeline('agents').some((e) => e.id === id));
+---
+<Layout title="Agent 演进综述" active="agents"><article class="reading"><p class="eyebrow">RESEARCH / AGENT SYSTEMS</p><h1>Agent 演进：<br />能力如何组合成系统</h1>{(review || published) ? <><p class="lede">专题按推理、工具、上下文与执行环境组织阅读。它们并行发展，并不是一条后一代替换前一代的单线历史。</p><h2>推理与行动形成循环</h2><p>思维链研究关注中间推理，ReAct 将推理和环境行动交替组织。模型输出不再只是终点，也可以成为下一次观察与行动的起点。<a href="https://arxiv.org/abs/2210.03629">ReAct 论文 ↗</a></p><h2>工具与协议扩展行动范围</h2><p>函数调用把动作转成结构化接口；MCP 关注应用与工具、数据之间的连接，A2A 关注 Agent 之间的互操作。协议的发布与生态普及需要分别判断。<a href="https://www.anthropic.com/news/model-context-protocol">MCP 发布公告 ↗</a> · <a href="https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/">A2A 发布公告 ↗</a></p><h2>可靠执行依赖模型周围的系统</h2><p>上下文管理、持久记忆、权限、反馈、停止条件与评估共同影响长任务的结果。Skills 封装可复用工作方法；Harness 工程实践关注运行环境与验证机制。不能仅凭新术语出现，就宣称旧路线已经终结。<a href="https://openai.com/index/harness-engineering/">工程实践原文 ↗</a></p></> : <p class="lede">专题综述与事件正在人工核实。通过审核后，将随对应时间线一并展示。</p>}<p><a href={href('timelines/agents/')}>沿时间线阅读 →</a></p></article></Layout>

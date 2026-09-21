@@ -1,6 +1,6 @@
 # 参与 AI Chronicle
 
-欢迎补充事件、修正日期与事实、提供更可靠的来源，以及提出时间线的组织建议。项目范围见 [README](README.md)，入选与核实要求见[编辑规范](docs/editorial.md)。
+欢迎补充事件、修正日期与事实、提供更可靠的来源，以及提出时间线的组织建议。项目范围见 [README](README.md)，入选与核实要求见[编辑规范](specs/editorial.md)。
 
 ## 提议事件
 
