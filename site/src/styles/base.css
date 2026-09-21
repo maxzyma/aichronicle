@@ -60,7 +60,7 @@ h1, h2, h3 { color: var(--fg-emphasis); }
 .event-date { font: 13px/1.9 var(--mono); color: var(--fg-emphasis); position: relative; }
 .event-date::after { content: ''; width: 5px; height: 5px; border: 1px solid var(--accent-primary); border-radius: 50%; position: absolute; right: 25px; top: 9px; background: var(--bg-default); }
 .event-date span { display: block; color: var(--fg-muted); font: 10px/1.8 var(--sans); margin-top: 8px; }
-.event-meta { display: flex; gap: 16px; font-size: 10px; color: var(--fg-muted); }
+.event-meta { display: flex; flex-wrap: wrap; gap: 16px; font-size: 10px; color: var(--fg-muted); }
 .event-meta span:first-child { color: var(--accent-primary); }
 .event-content h2 { font: 23px/1.6 var(--serif); margin: 10px 0 12px; }
 .event-content h2 a { display: flex; gap: 16px; justify-content: space-between; }

@@ -1,15 +1,16 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { events, sources, timelines, labels, href, review } from '../../data.mjs';
+import { events, sources, timelines, labels, stages, href, review } from '../../data.mjs';
 export function getStaticPaths() { return events.map((event) => ({params: {id: event.id}, props: {event}})); }
 const { event } = Astro.props;
 const memberships = timelines.filter((t) => t.entries.some((e) => e.event === event.id));
 ---
 <Layout title={event.title} description={event.summary}>
   <article class="reading event-detail"><a class="back" href={href()}>← AI 大事记</a><p class="eyebrow">{event.date} / {labels[event.category]}</p><h1>{event.title}</h1><p class="lede">{event.summary}</p>
-    <div class="detail-meta"><span>{event.organizations.join(' / ')}</span><span>{review ? '候选 · 待人工核实' : '已人工核实'}</span></div>
+    <div class="detail-meta"><span>{event.organizations.join(' / ')}</span>{event.stage && <span>{stages[event.stage]}</span>}<span>{review ? '候选 · 待人工核实' : '已人工核实'}</span></div>
     <h2>为什么值得回看</h2><p>{event.significance}</p>
     <h2>放在哪条时间线上</h2>{memberships.map((t) => <div class="membership"><a href={t.id === 'main' ? href() : href(`timelines/${t.id}/`)}>{t.title} →</a><p>{t.entries.find((e) => e.event === event.id)?.reason}</p></div>)}
+    {event.related.some((id) => events.some((e) => e.id === id)) && <><h2>关联节点</h2><ul>{event.related.map((id) => events.find((e) => e.id === id)).filter(Boolean).map((e) => <li><a href={href(`events/${e.id}/`)}>{e.date} · {e.title}</a></li>)}</ul></>}
     <h2 id="sources">原始出处</h2><p class="muted">日期精度：{({year:'年',month:'月',day:'日'})[event.precision]}。来源说明支持的事实范围；影响判断由编辑给出。</p>
     {sources.filter((s) => event.sources.includes(s.id)).map((s) => <div class="source-card"><span class="eyebrow">{s.publisher}</span><h3><a href={s.url} rel="noopener noreferrer">{s.title} ↗</a></h3><p>{s.supports}</p><small>查阅：{s.accessed.slice(0,10)} · 仅保存书目信息与原创摘要</small></div>)}
     <p class="correction">发现日期或事实有误？<a href={`https://github.com/maxzyma/aichronicle/issues/new?title=${encodeURIComponent(`Correction: ${event.id}`)}`}>提交纠错 ↗</a></p>

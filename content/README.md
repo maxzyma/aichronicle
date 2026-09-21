@@ -51,4 +51,15 @@
 - [2025-12-09 · MCP 加入 Agentic AI Foundation](events/mcp-foundation.md)
 - [2026-02-11 · OpenAI 发表 Harness engineering 实践](events/harness-engineering.md)
 
+- [2026-09-15 · Jev 开放早期访问，探索结构化决策模型](events/jev.md)
+- [2025-11 · Clawdbot / OpenClaw 的个人 Agent 项目起步](events/openclaw-origin.md)
+- [2026-01-29 · OpenClaw 公布新名称与个人 Agent 平台定位](events/openclaw-public.md)
+- [2025-05-22 · Claude Code 正式可用](events/claude-code-ga.md)
+- [2025-12-03 · Anthropic 披露 Claude Code 的收入运行率信号](events/claude-code-adoption.md)
+- [2025-10-06 · ACE 论文提出从反馈持续整理上下文](events/agentic-context-engineering.md)
+- [2026-04-04 · Karpathy 发布 LLM Wiki 模式说明](events/llm-wiki.md)
+- [2026-06-12 · Google Cloud 介绍 Open Knowledge Format v0.1](events/open-knowledge-format.md)
+- [2026-06-07 · Addy Osmani 发表 Loop Engineering 实践文章](events/loop-engineering.md)
+- [2025-06-26 · Manus 发布早期通用 Agent 产品回顾](events/manus-retrospective.md)
+
 [返回首页](../README.md)

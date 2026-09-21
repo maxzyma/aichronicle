@@ -28,6 +28,7 @@ jobs:
         run: npm run collect
         env:
           STATE_FILE: .runtime/state/state.json
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Persist watermarks and candidate evidence
         if: always() && steps.collection.outcome != 'skipped'
         working-directory: .runtime/state

@@ -21,7 +21,7 @@ Node.js 22.12+，执行 `npm ci` 安装锁定依赖。默认从仓库根目录�
 
 `npm run collect` 默认在 `.runtime/state.json` 保存状态。可用 `STATE_FILE` 指定持久文件。工作流使用独立 `automation-state` 分支保存水位与候选；每日／每周报告作为 GitHub Actions 制品下载。失败源在状态和报告中保留错误，下一轮重试，不误报“没有新事件”。
 
-修改 `automation/feeds.json` 后先本地试运行。新增来源必须是 HTTPS 公共来源，配置允许的主机，避免采集身份、内部链接或第三方全文。人工巡检入口见 [watchlist](../automation/watchlist.json)。
+修改 `automation/feeds.json` 或 `automation/discovery.json` 后先本地试运行。GitHub 搜索在 Actions 中使用内置 `GITHUB_TOKEN`，只发送到 GitHub API；本地可匿名运行但额度较低。公开搜索不读取私有仓库。报告显示结果截断时需要人工扩大或细分检索，不把部分结果当作完整覆盖。新增来源必须是 HTTPS 公共来源，配置允许的主机，避免采集身份、内部链接或第三方全文。人工巡检入口见 [watchlist](../automation/watchlist.json)。
 
 首次启用先创建只含 `state.json` 的 `automation-state` 分支。使用仓库 Actions 的 Candidates 工作流可手动运行采集；定时运行允许延迟，不能声称精确准点。
 

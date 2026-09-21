@@ -1,0 +1,8 @@
+[
+  {"id":"hn-ai","kind":"hn","query":"AI","windowDays":7,"maxPages":3,"perPage":50,"publisher":"Hacker News discovery","url":"https://hn.algolia.com/"},
+  {"id":"hn-agent","kind":"hn","query":"agent","windowDays":7,"maxPages":3,"perPage":50,"publisher":"Hacker News discovery","url":"https://hn.algolia.com/"},
+  {"id":"hn-model","kind":"hn","query":"model","windowDays":7,"maxPages":3,"perPage":50,"publisher":"Hacker News discovery","url":"https://hn.algolia.com/"},
+  {"id":"github-new-agents","kind":"github","query":"topic:ai-agent","dateField":"created","windowDays":30,"maxPages":2,"perPage":50,"publisher":"GitHub repository discovery","url":"https://github.com/topics/ai-agent"},
+  {"id":"github-active-agents","kind":"github","query":"topic:ai-agent","dateField":"pushed","windowDays":7,"maxPages":2,"perPage":50,"publisher":"GitHub repository discovery","url":"https://github.com/topics/ai-agent"},
+  {"id":"github-new-llm","kind":"github","query":"topic:llm","dateField":"created","windowDays":30,"maxPages":2,"perPage":50,"publisher":"GitHub repository discovery","url":"https://github.com/topics/llm"}
+]

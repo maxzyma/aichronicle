@@ -1,7 +1,7 @@
 # 自动化
 
-- [来源配置](feeds.json)与[人工巡检入口](watchlist.json)
-- [采集器](collectors/feeds.mjs)：RSS/Atom，URL 去重、失败保留水位、持久状态。
+- [发布方 RSS 配置](feeds.json)、[社区与仓库发现配置](discovery.json)、[人工巡检入口](watchlist.json)
+- [采集器](collectors/feeds.mjs)：RSS/Atom 与[发现适配器](collectors/discovery.mjs)，URL 去重、跨渠道来源保留、失败不推进水位。
 - [内容检查](checks/content.mjs)与[模型约束](checks/model.mjs)
 - [事件审核包生成](pipeline/review-report.mjs)与[每日／每周候选报告](pipeline/candidate-report.mjs)
 - [人工审核命令](pipeline/approve.mjs)与[维护者名单](reviewers.json)

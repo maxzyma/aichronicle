@@ -1,6 +1,6 @@
 # 首批事件审核包
 
-研究截止：2026-09-21T12:36:32Z。机器辅助核对来源，尚未人工核实；不自动进入正式站点。
+研究截止：2026-09-21T13:31:43Z。机器辅助核对来源，尚未人工核实；不自动进入正式站点。
 
 返回[研究索引](../README.md)。逐项检查日期、事实、来源和入选判断；通过后按[运维手册](../../docs/runbook.md)记录审核。
 
@@ -15,6 +15,18 @@
 - [Anthropic 与 Accenture 公布嵌入式评估合作 · 原始出处](https://www.anthropic.com/news/accenture-embedded-evaluation)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`6b209d83c3f814249972ff0ba51149f8352232e02219063508c3b0f19463aa23`
+
+## 2026-09-15 · Jev 开放早期访问，探索结构化决策模型
+
+[事件原件](../../content/events/jev.md) · models
+
+TypeSafe AI 公布 Jev 并开放早期访问，定位为向软件返回有类型的概率决策、而非自由文本的模型。
+
+入选判断：新路线观察：为 Agent 的路由、判断与控制提供不同接口；厂商的速度、成本与无幻觉宣称尚不等于独立验证或长期影响。
+
+- [Introducing System One Models & Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`4badbcb32c319ced3c7327c13f69b6bb9fd6bf92a677ce6771cb3fa06094ddb3`
 
 ## 2026-09-01 · OpenAI 公布 Astra 的风险评估进展
 
@@ -40,6 +52,42 @@ Anthropic 与 HHMI Janelia 等合作方公布用于 AI 与物理设备连接的�
 
 内容指纹：`45dc16e54f8f41c81fa1cec7d1fa5c263417c839324f89f695cbd97f1005c467`
 
+## 2026-06-12 · Google Cloud 介绍 Open Knowledge Format v0.1
+
+[事件原件](../../content/events/open-knowledge-format.md) · infrastructure
+
+Google Cloud 发布 OKF v0.1 的介绍，将 Markdown 文件和 YAML 元数据组织为可移植的知识格式。
+
+入选判断：为人和 Agent 交换上下文与整理后的知识提供格式约定；规范发布不等于已形成广泛互操作生态。
+
+- [Introducing the Open Knowledge Format](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`83861f7f7012ea7d42a4483fc939fa80713f2a5206d619138b6f56a58d18cbae`
+
+## 2026-06-07 · Addy Osmani 发表 Loop Engineering 实践文章
+
+[事件原件](../../content/events/loop-engineering.md) · research
+
+文章讨论由调度、执行隔离、可复用方法、工具连接和外部记忆组成的系统，持续向编程 Agent 分配任务并检查结果。
+
+入选判断：作为持续执行工程的阅读节点；不将作者文章等同于概念唯一源头，也不证明循环执行已可靠替代人工。
+
+- [Loop Engineering](https://addyosmani.com/blog/loop-engineering/)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`f9e7f7dff42a569327abe13afef423951a7fe69c86829ed27d2d6f5adbadfdb3`
+
+## 2026-04-04 · Karpathy 发布 LLM Wiki 模式说明
+
+[事件原件](../../content/events/llm-wiki.md) · research
+
+Karpathy 发布一份模式说明，讨论让 LLM 持续维护位于原始资料与用户之间、相互链接的 Markdown 知识库。
+
+入选判断：提供可维护知识层的实践样本；记录说明文件的发布日期，不声称其发明全部相关方法或替代 RAG。
+
+- [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`37878ec0d0bed398589b18f0f005abc32d93dbf5b6a0cf70f30a6a80c9d8534c`
+
 ## 2026-02-11 · OpenAI 发表 Harness engineering 实践
 
 [事件原件](../../content/events/harness-engineering.md) · research
@@ -51,6 +99,19 @@ OpenAI 分享围绕 Codex 构建仓库约束、反馈和执行环境的工程实
 - [OpenAI 发表 Harness engineering 实践 · 原始出处](https://openai.com/index/harness-engineering/)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`6d6dd11ec51cb1dc0fd0a286ffd8c7f9abdb366ae4389a2e849ea43adefd6898`
+
+## 2026-01-29 · OpenClaw 公布新名称与个人 Agent 平台定位
+
+[事件原件](../../content/events/openclaw-public.md) · products
+
+官方公告采用 OpenClaw 新名称，介绍可在用户选择的设备上运行、通过聊天应用交互的开放 Agent 平台。
+
+入选判断：主线候选：个人 Agent 的产品形态与开源传播值得记录；更名本身不是入选理由，公告中的访问量与星标数仅是项目方自述。
+
+- [Introducing OpenClaw](https://openclaw.ai/blog/introducing-openclaw)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+- [The Lore of OpenClaw](https://docs.openclaw.ai/start/lore)：支持 Clawd／Clawdbot、Moltbot、OpenClaw 的名称沿革。该回顾把迁移记在 1 月 30 日，与 1 月 29 日发布公告区分。
+
+内容指纹：`39c93a7969242927d42585e3ddd37298b3f28e4277b71a3c2c6f4c3505187d8b`
 
 ## 2025-12-09 · MCP 加入 Agentic AI Foundation
 
@@ -64,6 +125,31 @@ MCP 成为 Linux Foundation 旗下 Agentic AI Foundation 的创始项目。
 
 内容指纹：`f9979c3c79471458898bc401e98cd96dce8e9c7843d086252a72d3cd06ea14da`
 
+## 2025-12-03 · Anthropic 披露 Claude Code 的收入运行率信号
+
+[事件原件](../../content/events/claude-code-adoption.md) · products
+
+Anthropic 披露 Claude Code 在 2025 年 11 月达到 10 亿美元年化收入运行率；本事件日期为公告日。
+
+入选判断：作为编程 Agent 商业采用的厂商自报信号；年化运行率不是全年已实现收入，更不能单独证明生产率或全行业普及。
+
+- [Anthropic acquires Bun as Claude Code reaches $1B milestone](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`8068fc29739801c22a59be6f21c8c800011e41106e9de0238f4557c39108c1d7`
+
+## 2025-11 · Clawdbot / OpenClaw 的个人 Agent 项目起步
+
+[事件原件](../../content/events/openclaw-origin.md) · products
+
+创始人在后来的官方回顾中将项目起点追溯至 2025 年 11 月，早期名称包括 Clawd／Clawdbot。
+
+入选判断：把个人设备、聊天入口和工具执行组合为个人 Agent；此处是项目起点，不把后来的传播规模写成发布当时的事实。
+
+- [Introducing OpenClaw](https://openclaw.ai/blog/introducing-openclaw)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。项目起点为作者事后回顾，按月记录。
+- [The Lore of OpenClaw](https://docs.openclaw.ai/start/lore)：支持 Clawd／Clawdbot、Moltbot、OpenClaw 的名称沿革。该回顾把迁移记在 1 月 30 日，与 1 月 29 日发布公告区分。
+
+内容指纹：`942fbd25bac4ee035e4eaa222b9c74a4b587e1449ceac9830416790ede275f6a`
+
 ## 2025-10-16 · Agent Skills 推出
 
 [事件原件](../../content/events/agent-skills.md) · infrastructure
@@ -75,6 +161,18 @@ Anthropic 介绍通过指令、脚本与资源目录组合专门能力的 Agent 
 - [Agent Skills 推出 · 原始出处](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`16d825fb3413eb60062e65ba751224fff0f0216049eee24c1e53453119ba4747`
+
+## 2025-10-06 · ACE 论文提出从反馈持续整理上下文
+
+[事件原件](../../content/events/agentic-context-engineering.md) · research
+
+ACE 将上下文视为可演进的策略集合，通过生成、反思与整理积累经验，论文首版于当日提交。
+
+入选判断：补充 Agent 如何在不更新模型权重时利用执行反馈；实验结果限定于论文设置，不宣称所有任务都会持续自我改进。
+
+- [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`9afab7449292ce21cabf167f6b1f5e508f9092b5e3eb0a9bcea987b69b895747`
 
 ## 2025-09-29 · Claude Agent SDK 发布
 
@@ -99,6 +197,30 @@ Anthropic 在 Sonnet 4.5 发布材料中介绍 Claude Agent SDK。
 - [上下文工程实践文章发表 · 原始出处](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`39852cbd21b5a104bd0e96e643ecdfd9ff8211cb8d339bb2a2030de324eb2f92`
+
+## 2025-06-26 · Manus 发布早期通用 Agent 产品回顾
+
+[事件原件](../../content/events/manus-retrospective.md) · products
+
+Manus 团队回顾上线早期的研究、内容制作等用途，以及任务选择、成本与速度方面的使用障碍。
+
+入选判断：补充编程之外的任务委托形态；采用案例和改进幅度属于厂商陈述。本条不冒充最初发布公告。
+
+- [What we saw in the past three months. And what we see in the future.](https://manus.im/blog/what-we-saw-in-the-past-three-months-and-what-we-see-in-the-future)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`f1c579e5e550ddaefde38c93aab689b34f0fdfeab74368e3ab77f94632cee40d`
+
+## 2025-05-22 · Claude Code 正式可用
+
+[事件原件](../../content/events/claude-code-ga.md) · products
+
+Anthropic 在 Claude 4 发布公告中宣布 Claude Code 从研究预览进入正式可用阶段。
+
+入选判断：把首次预览与正式开放分开，记录编程 Agent 进入更广泛开发流程的产品节点；不据发布动作推断普及程度。
+
+- [Introducing Claude 4](https://www.anthropic.com/news/claude-4)：支持公告／论文／实践文章的日期与上述事实摘要；影响判断由编辑给出。
+
+内容指纹：`56a84a8104e8385488b7b38507308a814b9196fe8199f346070dd06ffa9b8da4`
 
 ## 2025-04-29 · Qwen3 模型系列发布
 
@@ -146,7 +268,7 @@ Anthropic 随 Claude 3.7 Sonnet 推出命令行编程工具 Claude Code 的研�
 
 - [Claude Code 研究预览推出 · 原始出处](https://www.anthropic.com/news/claude-3-7-sonnet)：用于核对事件日期、发布主体与事实摘要。
 
-内容指纹：`e211e72a4cb86cca1e2e2a7bd27a8f9c7f3c8adcc176dbc144221fd272b26504`
+内容指纹：`9cd4892209007299e6696c5f0d5ad4ce775bce411e3c6afd42f37c35ec68c109`
 
 ## 2025-01-22 · DeepSeek-R1 技术报告公开
 

@@ -5,6 +5,7 @@
   "date": "2025-02-24",
   "precision": "day",
   "category": "products",
+  "stage": "preview",
   "organizations": [
     "Anthropic"
   ],

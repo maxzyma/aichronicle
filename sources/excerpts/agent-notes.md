@@ -11,9 +11,11 @@
 5. 工作流与 Agent：预定义控制流与模型动态决策是工程分类；不把一篇综述的日期当作概念诞生日。参见[实践文章](../../content/events/effective-agents.md)。
 6. 编程与通用执行：编程 Agent、Skills 和运行环境让方法、工具与反馈组合成可执行系统。参见[Claude Code](../../content/events/claude-code.md)、[Skills](../../content/events/agent-skills.md)、[Harness 实践](../../content/events/harness-engineering.md)。
 
-## 暂不采信的历史断言
+## 进一步采用的材料
 
-“首次提出”“已经进入生产普及阶段”“一个新术语替代此前全部方法”等判断，需要单独的一手证据。笔记中的 LLM Wiki、Open Knowledge Format、Loop Engineering 等线索，尚未形成足以入选的核实记录；不据笔记日期直接生成正式事件。
+[逐节对照](agent-notes-coverage.md)列出每个主题的采用落点与剩余证据。OpenClaw、ACE、LLM Wiki、OKF 与 Loop Engineering 已分别形成有一手出处的候选；Claude Code 的预览、正式开放与采用信号分开记录。
+
+“首次提出”“已经普及”“新方法替代此前全部方法”等判断仍不由笔记标题直接推出。原始图片尚未逐张核读，在线新版尚未核对。
 
 后续处理见[研究缺口](../../research/reviews/gaps.md)与[Agent 综述](../../research/topics/agents.md)。
 

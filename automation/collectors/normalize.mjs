@@ -23,18 +23,23 @@ export function parseFeed(xml, feed) {
     const date = text(item.pubDate ?? item.published ?? item.updated);
     if (date && !Number.isFinite(Date.parse(date))) throw new Error('Feed entry has invalid date');
     return {id:createHash('sha256').update(url).digest('hex').slice(0,24),url,title,
-      publishedAt: date ? new Date(date).toISOString() : null, feed:feed.id, publisher:feed.publisher};
+      evidence:'publisher-feed', publishedAt: date ? new Date(date).toISOString() : null, feed:feed.id, publisher:feed.publisher};
   });
 }
-export function applySuccess(state, feed, entries, now) {
+export function applySuccess(state, feed, entries, now, coverage = null) {
   const candidates = entries.reduce((current, entry) => {
     const previous = current[entry.id];
-    const changed = previous && (previous.title !== entry.title || previous.publishedAt !== entry.publishedAt);
-    return {...current, [entry.id]: {...previous, ...entry, status:previous?.status ?? 'candidate',
-      discoveredAt:previous?.discoveredAt ?? now, updatedAt:changed ? now : previous?.updatedAt ?? now,
-      revisions: changed ? [...(previous.revisions ?? []), {title:previous.title,publishedAt:previous.publishedAt,at:now}] : previous?.revisions ?? []}};
-  }, state.candidates);
-  return {...state, candidates, feeds:{...state.feeds,[feed.id]:{lastAttempt:now,lastSuccess:now,error:null,items:entries.length}}};
+    const sameChannel = !previous || previous.feed === entry.feed;
+    const prefer = sameChannel || entry.evidence === 'publisher-feed';
+    const selected = prefer ? entry : previous;
+    const changed = previous && prefer && (previous.title !== entry.title || previous.publishedAt !== entry.publishedAt);
+    const channel={id:feed.id,url:entry.discoveryUrl ?? feed.url,evidence:entry.evidence ?? 'publisher-feed'};
+    const channels=[...(previous?.channels ?? []).filter((c) => c.id !== feed.id),channel].toSorted((a,b) => a.id.localeCompare(b.id));
+    return {...current,[entry.id]:{...previous,...selected,channels,status:previous?.status ?? 'candidate',
+      discoveredAt:previous?.discoveredAt ?? now,updatedAt:changed ? now : previous?.updatedAt ?? now,
+      revisions:changed ? [...(previous.revisions ?? []),{title:previous.title,publishedAt:previous.publishedAt,at:now}] : previous?.revisions ?? []}};
+  },state.candidates);
+  return {...state,candidates,feeds:{...state.feeds,[feed.id]:{lastAttempt:now,lastSuccess:now,error:null,items:entries.length,coverage}}};
 }
 export function applyFailure(state, feed, error, now) {
   return {...state,feeds:{...state.feeds,[feed.id]:{...state.feeds[feed.id],lastAttempt:now,error:String(error).slice(0,500)}}};

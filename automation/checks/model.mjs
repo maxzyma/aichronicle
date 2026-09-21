@@ -15,6 +15,8 @@ export const sourceSchema = z.object({
 }).strict();
 export const eventSchema = z.object({
   id, title: z.string().min(1), date: dateValue,
+  stage: z.enum(['research', 'preview', 'availability', 'adoption', 'governance', 'practice']).optional(),
+  aliases: z.array(z.string().min(1)).optional(),
   precision: z.enum(['year', 'month', 'day']),
   category: z.enum(['research', 'models', 'products', 'infrastructure', 'governance', 'science']),
   organizations: z.array(z.string()).min(1), sources: z.array(id).min(1),
