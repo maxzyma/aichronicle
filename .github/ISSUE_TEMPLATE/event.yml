@@ -1,0 +1,33 @@
+name: Propose an event / 提议事件
+description: Submit a sourced candidate for human review.
+title: "event: "
+body:
+  - type: markdown
+    attributes:
+      value: "Follow the [event template](https://github.com/maxzyma/aichronicle/blob/main/templates/event.md). Candidates require human verification before publication."
+  - type: textarea
+    id: event
+    attributes:
+      label: Event and date / 事件与时间
+      description: Describe what happened and distinguish announcement from availability.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources / 来源
+      description: Provide source URLs and identify the facts each source supports.
+    validations:
+      required: true
+  - type: textarea
+    id: significance
+    attributes:
+      label: Significance and timeline / 意义与时间线
+      description: Explain what changed, the supporting evidence, and the proposed timeline.
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Uncertainty and related events / 待核实内容与关联事件
+      description: Identify unverified claims and whether automation helped discover the candidate.
