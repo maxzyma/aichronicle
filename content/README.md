@@ -1,6 +1,6 @@
 # 事件与时间线
 
-事件事实源为 Markdown frontmatter；时间线只保存成员关系和入选理由。当前记录均为待人工审阅候选。
+事件事实源为 Markdown frontmatter；时间线只保存成员关系和入选理由。本批记录已获维护者批准；当前发布资格以内容指纹与审核记录为准，后续新增或修改须重新审核。
 
 [主时间线](timelines/main.yaml) · [Agent 时间线](timelines/agents.yaml) · [审核记录](approvals.json) · [审核包](../research/reviews/initial-review.md)
 

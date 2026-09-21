@@ -1,6 +1,6 @@
 # Agent 演进：能力如何组合成系统
 
-状态：首轮研究草稿，待人工核实。研究截点见[批次信息](../reviews/batch.json)。[专题成员](../../content/timelines/agents.yaml)引用统一事件记录，不单独复制事件日期。
+状态：所引首批事件已获维护者批准；下文仍区分已核对事实与编辑归纳。研究截点见[批次信息](../reviews/batch.json)。[专题成员](../../content/timelines/agents.yaml)引用统一事件记录，不单独复制事件日期。
 
 ## 推理与行动
 

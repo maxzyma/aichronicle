@@ -8,7 +8,7 @@
 
 ## 发布门槛
 
-素材逐节采用情况见[对照表](../sources/excerpts/agent-notes-coverage.md)。Jev、OpenClaw 与 Claude Code 的后续阶段已补为候选；首批事件尚待人工核实；正式站点只展示已批准事件，编辑预览展示候选。维护者逐项决定收录后按[运维手册](runbook.md)记录审核并发布。候选包、核实状态与影响判断均可公开审阅。
+素材逐节采用情况见[对照表](../sources/excerpts/agent-notes-coverage.md)。本批事件已由维护者批准，包括 Jev、OpenClaw、Claude Code 后续阶段及 Graph Engineering；正式站点只展示已批准事件，编辑预览展示候选。维护者逐项决定收录后按[运维手册](runbook.md)记录审核并发布。候选包、核实状态与影响判断均可公开审阅。
 
 ## 后续方向
 
