@@ -27,7 +27,7 @@ Node.js 22.12+，执行 `npm ci` 安装锁定依赖。默认从仓库根目录�
 
 ## 域名与恢复
 
-默认站点为 `https://maxzyma.github.io/aichronicle/`。独立域名上线时设置 Actions 变量 `SITE_URL=https://aichronicle.theuntold.ai`、`SITE_BASE=/`，配置 GitHub Pages 自定义域名及 DNS，再检查 HTTPS、资源路径与事件深链接。未配置前继续使用默认 Pages 地址。
+默认站点为 `https://maxzyma.github.io/aichronicle/`。独立域名上线时设置 Actions 变量 `SITE_URL=https://aichronicle.theuntold.ai`、`SITE_BASE=/`，在 DNS 中创建 `CNAME aichronicle → maxzyma.github.io`（不带仓库路径，先使用 DNS only），再配置 GitHub Pages 自定义域名并检查 HTTPS、资源路径与事件深链接。未配置前继续使用默认 Pages 地址。DNS 修改需要区域的 DNS Write 权限；普通 Wrangler 的部署权限不等于 DNS 写权限。参考 [GitHub 自定义域名文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
 
 发布失败先查看 Actions 构建／部署日志，修复后重新运行；内容回退以新提交撤回对应审核，保留 Git 历史。采集状态损坏可从 `automation-state` 上一提交恢复，不能清空水位冒充正常运行。
 
