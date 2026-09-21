@@ -12,7 +12,7 @@
 
 ## 后续方向
 
-1. 补齐[研究缺口](../research/reviews/gaps.md)，平衡地区、厂商与不同技术路线。
+1. 按[行业覆盖检查](../research/reviews/coverage.md)回溯前身与平行路线，补齐[研究缺口](../research/reviews/gaps.md)，平衡地区、厂商与不同技术路线。
 2. 将定时采集产生的线索转成有证据的事件，定期回看原有影响判断。
 3. 配置并验证 `aichronicle.theuntold.ai` 独立域名，保留 GitHub Pages 默认入口直到迁移完成。
 4. 在共享事件基础上增加新专题与回顾，不另建重复事实库。

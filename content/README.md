@@ -63,3 +63,19 @@
 - [2025-06-26 · Manus 发布早期通用 Agent 产品回顾](events/manus-retrospective.md)
 
 [返回首页](../README.md)
+
+- [2026-07-22 · LangChain 讨论 Graph Engineering 实践](events/graph-engineering.md)
+
+- [2026-08-21 · Graph Engineering 综述论文首版公开](events/graph-engineering-survey.md)
+
+- [2024-01-17 · LangChain 发表 LangGraph 架构介绍](events/langgraph.md)
+
+- [2024-02-13 · Microsoft Research 介绍 GraphRAG](events/graphrag.md)
+
+- [2023-10-10 · SWE-bench 论文首版公开](events/swe-bench.md)
+
+- [2024-06-19 · AgentDojo 论文首版公开](events/agentdojo.md)
+
+- [2023-08-16 · AutoGen 多 Agent 对话框架论文首版公开](events/autogen.md)
+
+- [2023-10-12 · MemGPT 分层记忆论文首版公开](events/memgpt.md)

@@ -26,6 +26,12 @@
 
 [ACE](../../content/events/agentic-context-engineering.md)讨论利用反馈整理上下文；[LLM Wiki](../../content/events/llm-wiki.md)描述可维护知识层；[OKF](../../content/events/open-knowledge-format.md)提供交换知识的格式约定；[Loop Engineering](../../content/events/loop-engineering.md)讨论由外部系统持续分配任务与检查结果。它们承担不同职责，不能仅凭发布时间推导替代关系。模型可以选择工具及参数，执行、权限和验证仍由应用承担。
 
+## 图、记忆与评测
+
+[AutoGen](../../content/events/autogen.md)提供多 Agent 对话组织的研究入口，[LangGraph](../../content/events/langgraph.md)将状态和循环执行显式建模。[Graph Engineering 实践](../../content/events/graph-engineering.md)与[综述](../../content/events/graph-engineering-survey.md)属于后来的讨论与研究整理，不把名称传播写成方法诞生。执行协作图规定下一步如何进行，[GraphRAG](../../content/events/graphrag.md)的知识图组织资料关系，二者职责不同；循环可以包含在图中。
+
+[MemGPT](../../content/events/memgpt.md)研究有限上下文与外部记忆的管理。[SWE-bench](../../content/events/swe-bench.md)评估仓库级软件任务，[AgentDojo](../../content/events/agentdojo.md)评估不可信工具数据下的攻击与防御。记忆容量、任务成功与安全鲁棒性必须分别验证，不能由一次演示或一项分数推断整体可靠。
+
 ## 新路线观察
 
 [Jev](../../content/events/jev.md)已进入专题候选，观察结构化概率决策在 Agent 控制与路由中的用途。发布事实可以核实，但厂商的速度、成本与无幻觉宣称尚未成为独立验证结论；暂不凭热度进入主线。

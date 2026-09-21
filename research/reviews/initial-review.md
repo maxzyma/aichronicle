@@ -1,6 +1,6 @@
 # 首批事件审核包
 
-研究截止：2026-09-21T13:31:43Z。机器辅助核对来源，尚未人工核实；不自动进入正式站点。
+研究截止：2026-09-21T13:51:18Z。机器辅助核对来源，尚未人工核实；不自动进入正式站点。
 
 返回[研究索引](../README.md)。逐项检查日期、事实、来源和入选判断；通过后按[运维手册](../../docs/runbook.md)记录审核。
 
@@ -51,6 +51,30 @@ Anthropic 与 HHMI Janelia 等合作方公布用于 AI 与物理设备连接的�
 - [Model Hardware Standard 研究预览公布 · 原始出处](https://www.anthropic.com/news/model-hardware-standard-research-preview)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`45dc16e54f8f41c81fa1cec7d1fa5c263417c839324f89f695cbd97f1005c467`
+
+## 2026-08-21 · Graph Engineering 综述论文首版公开
+
+[事件原件](../../content/events/graph-engineering-survey.md) · research
+
+论文讨论用动态演化的图表示任务、Agent 与系统状态，组织多 Agent 协作。
+
+入选判断：作为研究框架提出的节点，不把作者的系统智能论述视为行业共识或普遍效果证明。
+
+- [Graph Engineering 综述论文首版公开 · 原始出处](https://arxiv.org/abs/2608.21156)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`559718ac10f328ba0d874d57afe69fdc61d259280244fc2b563dbb65c399eed8`
+
+## 2026-07-22 · LangChain 讨论 Graph Engineering 实践
+
+[事件原件](../../content/events/graph-engineering.md) · research
+
+通过节点、边和状态约束 Agent 执行路径，同时允许节点包含完整 Agent 循环。
+
+入选判断：记录术语讨论与工程经验，不作为图编排发明日；Loop 与 Graph 可嵌套，并非互相替代。
+
+- [LangChain 讨论 Graph Engineering 实践 · 原始出处](https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`fd76ee1505105f7928f78523b5be0eec5669826eb329bcab5741d91ff125ac1a`
 
 ## 2026-06-12 · Google Cloud 介绍 Open Knowledge Format v0.1
 
@@ -342,6 +366,18 @@ Anthropic 开放让模型通过屏幕与计算机交互的 computer use 测试�
 
 内容指纹：`66ece283f8661d5d9c14c9c544054d388a27f4c67c52c3d898ea73cf8a60f921`
 
+## 2024-06-19 · AgentDojo 论文首版公开
+
+[事件原件](../../content/events/agentdojo.md) · research
+
+提出在工具返回不可信数据时评估 Agent 提示注入攻击、防御和任务完成情况的可扩展环境。
+
+入选判断：将任务能力与对抗鲁棒性分别评估；基准通过不保证实际部署安全，失败也需区分攻击效果与原有任务失败。
+
+- [AgentDojo 论文首版公开 · 原始出处](https://arxiv.org/abs/2406.13352)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`e9d415b40b3ae5d8aee033deafd6acb01d0be03e73fe7d2a0f3638df187669ab`
+
 ## 2024-02-15 · Gemini 1.5 发布并展示长上下文
 
 [事件原件](../../content/events/gemini15.md) · models
@@ -353,6 +389,66 @@ Google 发布 Gemini 1.5，并以有限预览展示更长的上下文窗口。
 - [Gemini 1.5 发布并展示长上下文 · 原始出处](https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/)：用于核对事件日期、发布主体与事实摘要。
 
 内容指纹：`ca0900c9dd0c259b36e2a137955ddacac08099c6adbb82fe0747f8371af26eab`
+
+## 2024-02-13 · Microsoft Research 介绍 GraphRAG
+
+[事件原件](../../content/events/graphrag.md) · research
+
+以语言模型构建实体关系图和语义聚类摘要，为跨资料关联与全局归纳提供检索上下文。
+
+入选判断：知识关系图与 Agent 执行图职责不同；记录研究介绍，代码开放是另一个节点，文章实验不证明普遍优于其他检索方法。
+
+- [Microsoft Research 介绍 GraphRAG · 原始出处](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`219de90d0f6ba16ef827984135ea4ad78aaabf3f62c96f35d311344f6cc1ad83`
+
+## 2024-01-17 · LangChain 发表 LangGraph 架构介绍
+
+[事件原件](../../content/events/langgraph.md) · research
+
+官方文章介绍通过状态、节点和条件边构建可循环的 Agent 运行流程，并提供人工介入等示例。
+
+入选判断：记录同期架构介绍而非首次发布日；文章已引用更早的版本公告，不能从文章日期推断项目起源。
+
+- [LangChain 发表 LangGraph 架构介绍 · 原始出处](https://www.langchain.com/blog/langgraph)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`ab2fff0bbfeabb83a7e52a15bf5a0a6842055ec1d22bf436d9a18e1052c06548`
+
+## 2023-10-12 · MemGPT 分层记忆论文首版公开
+
+[事件原件](../../content/events/memgpt.md) · research
+
+借鉴操作系统分层内存，通过不同存储层之间的信息移动管理有限上下文，研究长文档和跨会话交互。
+
+入选判断：区分上下文窗口增大、外部记忆管理与模型训练；研究实验不证明无限记忆或长期事实可靠。
+
+- [MemGPT 分层记忆论文首版公开 · 原始出处](https://arxiv.org/abs/2310.08560)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`ef6bc54f3444d7426135dc8bd8a7050403f62c4fdc065203ca49fc3a28af2517`
+
+## 2023-10-10 · SWE-bench 论文首版公开
+
+[事件原件](../../content/events/swe-bench.md) · research
+
+以真实 GitHub 问题和代码仓修改评估语言模型解决软件工程任务的能力。
+
+入选判断：把评测从代码片段扩展到仓库级问题；分数受数据版本、执行环境与方法影响，不等同真实岗位生产率。
+
+- [SWE-bench 论文首版公开 · 原始出处](https://arxiv.org/abs/2310.06770)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`f11ea4b88bf3f1051bacaef2b346eec7f24dce9cb9cb7e018cd35d86641b5d24`
+
+## 2023-08-16 · AutoGen 多 Agent 对话框架论文首版公开
+
+[事件原件](../../content/events/autogen.md) · research
+
+以可配置的 Agent 对话组织模型、工具和人类输入，支持不同交互模式的应用。
+
+入选判断：补充多 Agent 协作框架的早期研究节点，不将后来的产品版本与首版论文混记，也不推断多 Agent 必然更好。
+
+- [AutoGen 多 Agent 对话框架论文首版公开 · 原始出处](https://arxiv.org/abs/2308.08155)：核对原始文章或论文首版日期与方法摘要，不证明首创或广泛采用。
+
+内容指纹：`5efbb2ea93570f788fbc5dbe4401221578f44af0d0919646914f14012fc8ed20`
 
 ## 2023-06-23 · LLM 自主 Agent 的系统性综述发表
 

@@ -10,7 +10,7 @@
 | ReAct 与 Agent Loop | [ReAct 候选](../../content/events/react.md)，综述中的推理与行动循环 | “第一次”及早期框架采用仍需独立证据；图片待核读。 |
 | ChatGPT | [ChatGPT](../../content/events/chatgpt.md)、[InstructGPT](../../content/events/instructgpt.md) | 公众采用节点与发布节点分开；原图未转为事实。 |
 | LLM API | [函数调用](../../content/events/function-calling.md)、[Responses API](../../content/events/responses-api.md)；模型选择工具、应用执行工具的职责进入综述 | 2020 API 与 2023 Chat Completions 的独立事件待补。代码示例属于解释材料，不是事件。 |
-| Vector RAG | [RAG](../../content/events/rag.md)，知识检索方法归纳 | LangChain、LlamaIndex、Self-RAG、CRAG、Adaptive-RAG、GraphRAG 未逐条补齐；不把 RAG 等同向量检索。 |
+| Vector RAG | [RAG](../../content/events/rag.md)，知识检索方法归纳 | 已补 [GraphRAG 研究介绍](../../content/events/graphrag.md)；其代码开放、LangChain、LlamaIndex、Self-RAG、CRAG、Adaptive-RAG 待补；不把 RAG 等同向量检索。 |
 | Function Calling | [函数调用候选](../../content/events/function-calling.md) | Native／Prompt 调用区分属方法说明；不把单厂商 API 叫作行业统一标准。 |
 | LLM Powered Autonomous Agents | [Weng 综述候选](../../content/events/agent-systems-essay.md) | 综述日期不作为自主 Agent 概念诞生日。 |
 | Agentic 与 Agenticness | 保留研究线索，未生成事件 | 该节主要为图片，需核读并追溯原始出处，暂不采信标题日期。 |
