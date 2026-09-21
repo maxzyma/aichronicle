@@ -6,7 +6,7 @@ An open chronicle of AI milestones, with a curated main timeline, complementary 
 
 AI Chronicle 面向 AI 从业者，记录值得长期回看的行业事件。项目作为 [The Untold](https://theuntold.ai) 旗下独立子站发布。
 
-[在线站点](https://maxzyma.github.io/aichronicle/) · [首批审核包](research/reviews/initial-review.md) · [验收记录](docs/validation.md)
+[在线站点](https://maxzyma.github.io/aichronicle/) · [首批审核包](research/reviews/initial-review.md) · [验收记录](docs/validation.md) · [界面审查](docs/ui-review.md)
 
 ## 主线与专题
 

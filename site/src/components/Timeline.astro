@@ -8,23 +8,28 @@ const organizations = [...new Set(items.flatMap((e) => e.organizations))].sort()
   <div class="archive-top"><span class="eyebrow">THE ARCHIVE / {timeline.id === 'main' ? '01' : '02'}</span><span class="cutoff">研究截点 {batch.research_cutoff.slice(0, 10)}</span></div>
   <form class="filters" role="search" aria-label="筛选时间线">
     <label class="search-box"><span>搜索事件</span><input type="search" name="q" placeholder="搜索技术、事件、组织…" autocomplete="off" /></label>
+    <details class="filters-advanced"><summary>筛选与排序</summary><div class="advanced-controls">
     <label><span>领域</span><select name="category"><option value="">全部领域</option>{Object.entries(labels).map(([key, value]) => <option value={key}>{value}</option>)}</select></label>
     <label><span>年份</span><select name="year"><option value="">全部年份</option>{years.map((year) => <option value={year}>{year}</option>)}</select></label>
     <label><span>组织</span><select name="org"><option value="">全部组织</option>{organizations.map((org) => <option value={org}>{org}</option>)}</select></label>
     <label><span>顺序</span><select name="sort"><option value="desc">由近及远</option><option value="asc">从起点出发</option></select></label>
+    </div></details>
     <button class="reset" type="reset">重置</button>
   </form>
   <div class="result-bar"><p aria-live="polite"><strong id="result-count">{items.length}</strong> 个{review ? '候选节点' : '收录节点'}</p><span>事实 · 影响 · 原始出处</span></div>
   {items.length === 0 && <div class="empty-state"><span class="eyebrow">CURATION IN PROGRESS</span><h2>第一份档案，正在核实。</h2><p>时间线采用人工审核后收录。首批历史骨架与 Agent 专题已经进入编辑流程，通过核实的事件将在这里出现。</p><a href="https://github.com/maxzyma/aichronicle/tree/main/research/reviews">查看公开审核材料 ↗</a></div>}
+  <div class="timeline-layout">
+    <aside class="year-index" aria-label="按年份筛选"><span class="eyebrow">年代索引</span><div class="year-options"><button type="button" data-year="" aria-pressed="true">全部年份</button>{years.map((year) => <button type="button" data-year={year} aria-pressed="false">{year}<span aria-hidden="true">↗</span></button>)}</div><p>按事件先后排列<br />节点间距不代表时长</p></aside>
   <div id="timeline-list" class="timeline-list">
-    {items.map((event) => <article class="event-row" data-id={event.id} data-date={event.date} data-category={event.category} data-org={JSON.stringify(event.organizations)} data-search={`${event.title} ${(event.aliases ?? []).join(' ')} ${event.summary} ${event.significance} ${event.organizations.join(' ')}`.toLowerCase()}>
-      <div class="event-date"><time datetime={event.date}>{event.date}</time><span>{event.precision === 'year' ? '年级记录' : event.precision === 'month' ? '月级记录' : ''}</span></div>
+    {items.map((event, index) => <article class="event-row" data-year-start={index === 0 || items[index - 1].date.slice(0, 4) !== event.date.slice(0, 4) ? "true" : "false"} data-id={event.id} data-date={event.date} data-category={event.category} data-org={JSON.stringify(event.organizations)} data-search={`${event.title} ${(event.aliases ?? []).join(' ')} ${event.summary} ${event.significance} ${event.organizations.join(' ')}`.toLowerCase()}>
+      <div class="year-marker" aria-hidden="true">{event.date.slice(0, 4)}</div><div class="event-date"><time datetime={event.date}>{event.date}</time><span>{event.precision === 'year' ? '年级记录' : event.precision === 'month' ? '月级记录' : ''}</span></div>
       <div class="event-content"><div class="event-meta"><span>{labels[event.category]}</span>{event.stage && <span>{stages[event.stage]}</span>}<span>{event.organizations.join(' / ')}</span></div>
         <h2><a href={href(`events/${event.id}/`)}>{event.title}<span class="event-arrow" aria-hidden="true">↗</span></a></h2>
         <p>{event.summary}</p><div class="significance"><span>为何记录</span><p>{timeline.entries.find((e) => e.event === event.id)?.reason}</p></div>
         <a class="source-link" href={href(`events/${event.id}/#sources`)}>{event.sources.length} 个原始出处 <span aria-hidden="true">→</span></a>
       </div>
     </article>)}
+  </div>
   </div>
   <p id="no-results" class="empty-state" hidden>没有匹配的事件。试试减少筛选条件，或搜索其他关键词。</p>
   <noscript><p>所有记录已显示；启用 JavaScript 后可使用筛选。</p></noscript>

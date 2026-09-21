@@ -5,6 +5,6 @@ import { timelines, inTimeline, href } from '../../data.mjs';
 const timeline = timelines.find((t) => t.id === 'agents');
 ---
 <Layout title="Agent 演进" active="agents">
-  <section class="hero topic-hero"><div><p class="eyebrow">TOPIC / AGENT SYSTEMS</p><h1>从生成答案，<br />到执行任务。</h1><p class="hero-intro">沿着推理、工具、记忆与执行环境，<br />回看 Agent 能力如何逐步拼合。</p></div><div class="hero-side"><p>专题时间线 · 02</p><a href={href('research/agents/')}>阅读专题综述 →</a><a href={href()}>返回 AI 主时间线 →</a></div></section>
+  <section class="hero topic-hero"><div><p class="eyebrow">TOPIC / AGENT SYSTEMS</p><h1>从生成答案，<br /><em>到执行任务。</em></h1><p class="hero-intro">沿着推理、工具、记忆与执行环境，<br />回看 Agent 能力如何逐步拼合。</p></div><div class="hero-side"><p>专题时间线 · 02</p><a href={href('research/agents/')}>阅读专题综述 →</a><a href={href()}>返回 AI 主时间线 →</a></div></section>
   <Timeline timeline={timeline} items={inTimeline('agents')} />
 </Layout>

@@ -17,6 +17,14 @@ if (form && list) {
       && (!values.year || row.dataset.date?.startsWith(values.year))
       && (!values.org || JSON.parse(row.dataset.org ?? '[]').includes(values.org)));
     for (const row of sorted) row.hidden = !visible.includes(row);
+    for (const row of sorted) {
+      const index = visible.indexOf(row);
+      row.dataset.yearStart = String(index >= 0 && (index === 0
+        || visible[index - 1].dataset.date?.slice(0, 4) !== row.dataset.date?.slice(0, 4)));
+    }
+    document.querySelectorAll<HTMLButtonElement>('[data-year]').forEach((button) => {
+      button.setAttribute('aria-pressed', String(button.dataset.year === values.year));
+    });
     list.replaceChildren(...sorted);
     const count = document.getElementById('result-count');
     if (count) count.textContent = String(visible.length);
@@ -25,9 +33,14 @@ if (form && list) {
     const query = new URLSearchParams(Object.entries(values).filter(([key, value]) => value && !(key === 'sort' && value === 'desc')));
     history.replaceState(null, '', `${location.pathname}${query.size ? `?${query}` : ''}${location.hash}`);
   };
+  document.querySelectorAll<HTMLButtonElement>('[data-year]').forEach((button) => {
+    button.addEventListener('click', () => {
+      controls.year.value = button.dataset.year ?? '';
+      apply();
+    });
+  });
   form.addEventListener('submit', (event) => event.preventDefault());
   form.addEventListener('input', apply);
-  form.addEventListener('change', apply);
   form.addEventListener('reset', () => setTimeout(apply));
   apply();
 }

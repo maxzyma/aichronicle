@@ -14,16 +14,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     {review && <meta name="robots" content="noindex,nofollow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={href('favicon.svg')} />
-    <meta name="theme-color" content="#f8f7f3" />
+    <meta name="theme-color" content="#f4f6fa" />
   </head>
   <body>
     <a class="skip" href="#main">跳到正文</a>
     <header class="masthead shell">
       <a class="brand" href={href()} aria-label="AI Chronicle 首页"><span class="brand-dot"></span> AI CHRONICLE <span class="brand-note">by The Untold</span></a>
       <nav aria-label="主导航">
-        <a class:list={{active: active === 'timeline'}} href={href()}>时间线</a>
-        <a class:list={{active: active === 'agents'}} href={href('timelines/agents/')}>Agent 演进</a>
-        <a class:list={{active: active === 'about'}} href={href('about/')}>关于</a>
+        <a aria-current={active === 'timeline' ? 'page' : undefined} class:list={{active: active === 'timeline'}} href={href()}>时间线</a>
+        <a aria-current={active === 'agents' ? 'page' : undefined} class:list={{active: active === 'agents'}} href={href('timelines/agents/')}>Agent 演进</a>
+        <a aria-current={active === 'about' ? 'page' : undefined} class:list={{active: active === 'about'}} href={href('about/')}>关于</a>
         <a class="github" href="https://github.com/maxzyma/aichronicle" aria-label="GitHub 开源仓库">GitHub ↗</a>
       </nav>
     </header>
