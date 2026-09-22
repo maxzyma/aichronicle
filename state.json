@@ -2,36 +2,36 @@
   "version": 1,
   "feeds": {
     "openai": {
-      "lastAttempt": "2026-09-22T16:56:56.371Z",
-      "lastSuccess": "2026-09-22T16:56:56.371Z",
+      "lastAttempt": "2026-09-22T21:18:11.715Z",
+      "lastSuccess": "2026-09-22T21:18:11.715Z",
       "error": null,
-      "items": 153,
+      "items": 156,
       "coverage": null
     },
     "google-ai": {
-      "lastAttempt": "2026-09-22T16:56:56.749Z",
-      "lastSuccess": "2026-09-22T16:56:56.749Z",
+      "lastAttempt": "2026-09-22T21:18:12.057Z",
+      "lastSuccess": "2026-09-22T21:18:12.057Z",
       "error": null,
       "items": 20,
       "coverage": null
     },
     "huggingface": {
-      "lastAttempt": "2026-09-22T16:56:56.917Z",
-      "lastSuccess": "2026-09-22T16:56:56.917Z",
+      "lastAttempt": "2026-09-22T21:18:12.275Z",
+      "lastSuccess": "2026-09-22T21:18:12.275Z",
       "error": null,
-      "items": 57,
+      "items": 58,
       "coverage": null
     },
     "openclaw": {
-      "lastAttempt": "2026-09-22T16:56:57.090Z",
-      "lastSuccess": "2026-09-22T16:56:57.090Z",
+      "lastAttempt": "2026-09-22T21:18:12.430Z",
+      "lastSuccess": "2026-09-22T21:18:12.430Z",
       "error": null,
-      "items": 7,
+      "items": 8,
       "coverage": null
     },
     "hn-ai": {
-      "lastAttempt": "2026-09-22T16:56:57.189Z",
-      "lastSuccess": "2026-09-22T16:56:57.189Z",
+      "lastAttempt": "2026-09-22T21:18:12.487Z",
+      "lastSuccess": "2026-09-22T21:18:12.487Z",
       "error": null,
       "items": 150,
       "coverage": {
@@ -43,8 +43,8 @@
       }
     },
     "hn-agent": {
-      "lastAttempt": "2026-09-22T16:56:58.099Z",
-      "lastSuccess": "2026-09-22T16:56:58.099Z",
+      "lastAttempt": "2026-09-22T21:18:13.626Z",
+      "lastSuccess": "2026-09-22T21:18:13.626Z",
       "error": null,
       "items": 150,
       "coverage": {
@@ -56,8 +56,8 @@
       }
     },
     "hn-model": {
-      "lastAttempt": "2026-09-22T16:56:59.057Z",
-      "lastSuccess": "2026-09-22T16:56:59.057Z",
+      "lastAttempt": "2026-09-22T21:18:14.465Z",
+      "lastSuccess": "2026-09-22T21:18:14.465Z",
       "error": null,
       "items": 150,
       "coverage": {
@@ -69,40 +69,40 @@
       }
     },
     "github-new-agents": {
-      "lastAttempt": "2026-09-22T16:57:00.015Z",
-      "lastSuccess": "2026-09-22T16:57:00.015Z",
+      "lastAttempt": "2026-09-22T21:18:15.335Z",
+      "lastSuccess": "2026-09-22T21:18:15.335Z",
       "error": null,
       "items": 100,
       "coverage": {
         "windowDays": 30,
         "capped": true,
-        "reportedPages": 88,
+        "reportedPages": 89,
         "pageLimit": 2,
         "order": "total-stars"
       }
     },
     "github-active-agents": {
-      "lastAttempt": "2026-09-22T16:57:02.598Z",
-      "lastSuccess": "2026-09-22T16:57:02.598Z",
+      "lastAttempt": "2026-09-22T21:18:17.841Z",
+      "lastSuccess": "2026-09-22T21:18:17.841Z",
       "error": null,
       "items": 100,
       "coverage": {
         "windowDays": 7,
         "capped": true,
-        "reportedPages": 117,
+        "reportedPages": 118,
         "pageLimit": 2,
         "order": "total-stars"
       }
     },
     "github-new-llm": {
-      "lastAttempt": "2026-09-22T16:57:04.881Z",
-      "lastSuccess": "2026-09-22T16:57:04.881Z",
+      "lastAttempt": "2026-09-22T21:18:20.295Z",
+      "lastSuccess": "2026-09-22T21:18:20.295Z",
       "error": null,
       "items": 100,
       "coverage": {
         "windowDays": 30,
         "capped": true,
-        "reportedPages": 271,
+        "reportedPages": 274,
         "pageLimit": 2,
         "order": "total-stars"
       }
@@ -4962,7 +4962,7 @@
       "channels": [
         {
           "id": "hn-agent",
-          "url": "https://news.ycombinator.com/item?id=49786722",
+          "url": "https://news.ycombinator.com/item?id=49796340",
           "evidence": "discovery-only"
         },
         {
@@ -6218,27 +6218,33 @@
     "d4fcf0078370f11022c80515": {
       "id": "d4fcf0078370f11022c80515",
       "url": "https://fortune.com/2026/09/17/shopify-tobias-lutke-ai-slop-grenades/",
-      "title": "Shopify CEO says employees' `slop grenades` making more work for everyone else",
+      "title": "Shopify CEO: employees' 'slop grenades' are making more work for everyone else",
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
-      "publishedAt": "2026-09-21T06:43:40.000Z",
-      "discoveryUrl": "https://news.ycombinator.com/item?id=49783809",
+      "publishedAt": "2026-09-22T17:43:43.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805242",
       "signal": {
-        "points": 7,
-        "comments": 1
+        "points": 4,
+        "comments": 2
       },
       "channels": [
         {
           "id": "hn-ai",
-          "url": "https://news.ycombinator.com/item?id=49783809",
+          "url": "https://news.ycombinator.com/item?id=49805242",
           "evidence": "discovery-only"
         }
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-21T13:43:09.574Z",
-      "updatedAt": "2026-09-21T13:43:09.574Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": [
+        {
+          "title": "Shopify CEO says employees' `slop grenades` making more work for everyone else",
+          "publishedAt": "2026-09-21T06:43:40.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
+        }
+      ]
     },
     "7d81b59f8840282bc5a4af1a": {
       "id": "7d81b59f8840282bc5a4af1a",
@@ -7250,6 +7256,11 @@
         "comments": 1
       },
       "channels": [
+        {
+          "id": "github-new-llm",
+          "url": "https://github.com/openlayer-ai/jevals",
+          "evidence": "discovery-only"
+        },
         {
           "id": "hn-ai",
           "url": "https://news.ycombinator.com/item?id=49780849",
@@ -12144,7 +12155,7 @@
       "publishedAt": "2026-09-21T12:57:16.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49786709",
       "signal": {
-        "points": 3,
+        "points": 4,
         "comments": 0
       },
       "channels": [
@@ -12174,6 +12185,11 @@
       },
       "channels": [
         {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49800574",
+          "evidence": "discovery-only"
+        },
+        {
           "id": "hn-model",
           "url": "https://news.ycombinator.com/item?id=49786635",
           "evidence": "discovery-only"
@@ -12181,7 +12197,7 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-21T13:43:11.737Z",
-      "updatedAt": "2026-09-22T16:56:59.057Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
       "revisions": [
         {
           "title": "JevBench: Benchmark for Jev-Class Models",
@@ -12192,6 +12208,16 @@
           "title": "JevBench, a reproducible benchmark for typed decision models",
           "publishedAt": "2026-09-22T13:01:03.000Z",
           "at": "2026-09-22T16:56:59.057Z"
+        },
+        {
+          "title": "JevBench: Benchmark for Jev-Class Models",
+          "publishedAt": "2026-09-21T12:49:30.000Z",
+          "at": "2026-09-22T21:18:14.465Z"
+        },
+        {
+          "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+          "publishedAt": "2026-09-22T13:01:03.000Z",
+          "at": "2026-09-22T21:18:14.465Z"
         }
       ]
     },
@@ -12405,7 +12431,7 @@
       "publishedAt": "2026-09-21T07:11:55.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49783999",
       "signal": {
-        "points": 446,
+        "points": 451,
         "comments": 198
       },
       "channels": [
@@ -15414,7 +15440,7 @@
       "projectCreatedAt": "2026-09-01T23:26:56Z",
       "discoveryUrl": "https://github.com/BoardUI/boardui",
       "signal": {
-        "stars": 513
+        "stars": 514
       },
       "channels": [
         {
@@ -15489,7 +15515,7 @@
       "projectCreatedAt": "2026-08-25T06:09:32Z",
       "discoveryUrl": "https://github.com/pax-beehive/dsh-hub-cli",
       "signal": {
-        "stars": 438
+        "stars": 440
       },
       "channels": [
         {
@@ -15569,7 +15595,7 @@
       "projectCreatedAt": "2026-08-25T07:46:42Z",
       "discoveryUrl": "https://github.com/Derpyu520/qq-bridge",
       "signal": {
-        "stars": 375
+        "stars": 377
       },
       "channels": [
         {
@@ -15594,7 +15620,7 @@
       "projectCreatedAt": "2026-09-10T22:07:14Z",
       "discoveryUrl": "https://github.com/agent-launch/agent-launcher",
       "signal": {
-        "stars": 324
+        "stars": 325
       },
       "channels": [
         {
@@ -15619,7 +15645,7 @@
       "projectCreatedAt": "2026-08-24T06:36:40Z",
       "discoveryUrl": "https://github.com/XHToken/Spark-X2.5",
       "signal": {
-        "stars": 308
+        "stars": 312
       },
       "channels": [
         {
@@ -15729,7 +15755,7 @@
       "projectCreatedAt": "2026-08-27T08:57:06Z",
       "discoveryUrl": "https://github.com/Lincb522/GitGatto",
       "signal": {
-        "stars": 256
+        "stars": 257
       },
       "channels": [
         {
@@ -15779,7 +15805,7 @@
       "projectCreatedAt": "2026-09-10T13:08:41Z",
       "discoveryUrl": "https://github.com/emma-sue/AegisOps",
       "signal": {
-        "stars": 259
+        "stars": 262
       },
       "channels": [
         {
@@ -15829,7 +15855,7 @@
       "projectCreatedAt": "2026-09-08T13:46:05Z",
       "discoveryUrl": "https://github.com/Loopera-ai/loopera",
       "signal": {
-        "stars": 238
+        "stars": 239
       },
       "channels": [
         {
@@ -15879,7 +15905,7 @@
       "projectCreatedAt": "2026-09-10T09:38:49Z",
       "discoveryUrl": "https://github.com/ZeroDayEvil/ai-security-tool",
       "signal": {
-        "stars": 252
+        "stars": 264
       },
       "channels": [
         {
@@ -16199,7 +16225,7 @@
       "projectCreatedAt": "2026-09-16T01:13:59Z",
       "discoveryUrl": "https://github.com/JourniOne-ai/JourniOne-Planning-Skills",
       "signal": {
-        "stars": 146
+        "stars": 154
       },
       "channels": [
         {
@@ -16349,7 +16375,7 @@
       "projectCreatedAt": "2026-08-28T02:59:45Z",
       "discoveryUrl": "https://github.com/PaulineWang183/daytrace",
       "signal": {
-        "stars": 103
+        "stars": 104
       },
       "channels": [
         {
@@ -16714,7 +16740,7 @@
       "projectCreatedAt": "2026-08-26T12:06:14Z",
       "discoveryUrl": "https://github.com/kvv256512-ux/turbo-ai",
       "signal": {
-        "stars": 64
+        "stars": 63
       },
       "channels": [
         {
@@ -17119,7 +17145,7 @@
       "projectCreatedAt": "2026-09-06T04:46:45Z",
       "discoveryUrl": "https://github.com/sreenidhbonagiri/remedi",
       "signal": {
-        "stars": 33
+        "stars": 36
       },
       "channels": [
         {
@@ -17419,7 +17445,7 @@
       "projectCreatedAt": "2026-09-15T09:09:55Z",
       "discoveryUrl": "https://github.com/mrgoonie/zuey-pi-setup",
       "signal": {
-        "stars": 29
+        "stars": 30
       },
       "channels": [
         {
@@ -17794,7 +17820,7 @@
       "projectCreatedAt": "2026-09-11T11:03:51Z",
       "discoveryUrl": "https://github.com/MingyiSecLab/Atlas",
       "signal": {
-        "stars": 20
+        "stars": 21
       },
       "channels": [
         {
@@ -17869,7 +17895,7 @@
       "projectCreatedAt": "2025-07-22T22:22:28Z",
       "discoveryUrl": "https://github.com/NousResearch/hermes-agent",
       "signal": {
-        "stars": 248024
+        "stars": 248089
       },
       "channels": [
         {
@@ -17894,7 +17920,7 @@
       "projectCreatedAt": "2026-02-24T02:10:24Z",
       "discoveryUrl": "https://github.com/Panniantong/Agent-Reach",
       "signal": {
-        "stars": 84710
+        "stars": 84775
       },
       "channels": [
         {
@@ -17919,7 +17945,7 @@
       "projectCreatedAt": "2026-04-04T18:21:18Z",
       "discoveryUrl": "https://github.com/career-ops-hq/career-ops",
       "signal": {
-        "stars": 72424
+        "stars": 72440
       },
       "channels": [
         {
@@ -17944,7 +17970,7 @@
       "projectCreatedAt": "2026-01-10T06:43:20Z",
       "discoveryUrl": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "signal": {
-        "stars": 65498
+        "stars": 65504
       },
       "channels": [
         {
@@ -17969,7 +17995,7 @@
       "projectCreatedAt": "2025-12-10T06:54:33Z",
       "discoveryUrl": "https://github.com/hugohe3/ppt-master",
       "signal": {
-        "stars": 55967
+        "stars": 55973
       },
       "channels": [
         {
@@ -17994,7 +18020,7 @@
       "projectCreatedAt": "2024-05-24T01:56:26Z",
       "discoveryUrl": "https://github.com/CherryHQ/cherry-studio",
       "signal": {
-        "stars": 52076
+        "stars": 52079
       },
       "channels": [
         {
@@ -18019,7 +18045,7 @@
       "projectCreatedAt": "2025-09-09T02:41:44Z",
       "discoveryUrl": "https://github.com/bojieli/ai-agent-book",
       "signal": {
-        "stars": 50058
+        "stars": 50068
       },
       "channels": [
         {
@@ -18044,7 +18070,7 @@
       "projectCreatedAt": "2026-02-01T07:16:15Z",
       "discoveryUrl": "https://github.com/HKUDS/nanobot",
       "signal": {
-        "stars": 48487
+        "stars": 48492
       },
       "channels": [
         {
@@ -18069,7 +18095,7 @@
       "projectCreatedAt": "2022-08-07T08:33:41Z",
       "discoveryUrl": "https://github.com/zhayujie/CowAgent",
       "signal": {
-        "stars": 47080
+        "stars": 47085
       },
       "channels": [
         {
@@ -18094,7 +18120,7 @@
       "projectCreatedAt": "2020-08-30T09:21:35Z",
       "discoveryUrl": "https://github.com/siyuan-note/siyuan",
       "signal": {
-        "stars": 46464
+        "stars": 46466
       },
       "channels": [
         {
@@ -18144,7 +18170,7 @@
       "projectCreatedAt": "2023-06-19T04:08:31Z",
       "discoveryUrl": "https://github.com/CopilotKit/CopilotKit",
       "signal": {
-        "stars": 37471
+        "stars": 37478
       },
       "channels": [
         {
@@ -18169,7 +18195,7 @@
       "projectCreatedAt": "2026-04-21T08:27:02Z",
       "discoveryUrl": "https://github.com/esengine/DeepSeek-Reasonix",
       "signal": {
-        "stars": 35676
+        "stars": 35679
       },
       "channels": [
         {
@@ -18194,7 +18220,7 @@
       "projectCreatedAt": "2026-02-24T03:42:56Z",
       "discoveryUrl": "https://github.com/agentscope-ai/QwenPaw",
       "signal": {
-        "stars": 35213
+        "stars": 35215
       },
       "channels": [
         {
@@ -18219,7 +18245,7 @@
       "projectCreatedAt": "2026-04-01T09:52:20Z",
       "discoveryUrl": "https://github.com/HKUDS/Vibe-Trading",
       "signal": {
-        "stars": 33834
+        "stars": 33845
       },
       "channels": [
         {
@@ -18244,7 +18270,7 @@
       "projectCreatedAt": "2026-04-01T03:15:49Z",
       "discoveryUrl": "https://github.com/Gitlawb/openclaude",
       "signal": {
-        "stars": 33483
+        "stars": 33487
       },
       "channels": [
         {
@@ -18269,7 +18295,7 @@
       "projectCreatedAt": "2025-12-31T14:01:28Z",
       "discoveryUrl": "https://github.com/can1357/oh-my-pi",
       "signal": {
-        "stars": 32683
+        "stars": 32760
       },
       "channels": [
         {
@@ -18319,7 +18345,7 @@
       "projectCreatedAt": "2026-03-02T19:46:06Z",
       "discoveryUrl": "https://github.com/googleworkspace/cli",
       "signal": {
-        "stars": 31098
+        "stars": 31104
       },
       "channels": [
         {
@@ -18369,7 +18395,7 @@
       "projectCreatedAt": "2026-04-07T06:34:26Z",
       "discoveryUrl": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "signal": {
-        "stars": 27147
+        "stars": 27153
       },
       "channels": [
         {
@@ -18394,7 +18420,7 @@
       "projectCreatedAt": "2026-03-30T05:22:23Z",
       "discoveryUrl": "https://github.com/titanwings/distilly",
       "signal": {
-        "stars": 24965
+        "stars": 24970
       },
       "channels": [
         {
@@ -18419,7 +18445,7 @@
       "projectCreatedAt": "2022-12-03T02:52:46Z",
       "discoveryUrl": "https://github.com/activepieces/activepieces",
       "signal": {
-        "stars": 24661
+        "stars": 24666
       },
       "channels": [
         {
@@ -18444,7 +18470,7 @@
       "projectCreatedAt": "2020-10-24T07:27:48Z",
       "discoveryUrl": "https://github.com/nocobase/nocobase",
       "signal": {
-        "stars": 24313
+        "stars": 24318
       },
       "channels": [
         {
@@ -18494,7 +18520,7 @@
       "projectCreatedAt": "2026-01-05T09:43:36Z",
       "discoveryUrl": "https://github.com/1jehuang/jcode",
       "signal": {
-        "stars": 20023
+        "stars": 20032
       },
       "channels": [
         {
@@ -18519,7 +18545,7 @@
       "projectCreatedAt": "2019-02-10T12:25:12Z",
       "discoveryUrl": "https://github.com/leon-ai/leon",
       "signal": {
-        "stars": 17538
+        "stars": 17539
       },
       "channels": [
         {
@@ -18544,7 +18570,7 @@
       "projectCreatedAt": "2026-04-07T11:19:51Z",
       "discoveryUrl": "https://github.com/xbtlin/ai-berkshire",
       "signal": {
-        "stars": 16486
+        "stars": 16488
       },
       "channels": [
         {
@@ -18594,7 +18620,7 @@
       "projectCreatedAt": "2026-04-16T12:51:09Z",
       "discoveryUrl": "https://github.com/citrolabs/ego-lite",
       "signal": {
-        "stars": 16375
+        "stars": 16381
       },
       "channels": [
         {
@@ -18644,7 +18670,7 @@
       "projectCreatedAt": "2025-12-17T08:41:09Z",
       "discoveryUrl": "https://github.com/opensandbox-group/OpenSandbox",
       "signal": {
-        "stars": 15472
+        "stars": 15471
       },
       "channels": [
         {
@@ -18669,7 +18695,7 @@
       "projectCreatedAt": "2026-03-31T17:30:14Z",
       "discoveryUrl": "https://github.com/NanmiCoder/cc-haha",
       "signal": {
-        "stars": 14677
+        "stars": 14678
       },
       "channels": [
         {
@@ -18719,7 +18745,7 @@
       "projectCreatedAt": "2026-01-16T15:45:24Z",
       "discoveryUrl": "https://github.com/lsdefine/GenericAgent",
       "signal": {
-        "stars": 14233
+        "stars": 14234
       },
       "channels": [
         {
@@ -18744,7 +18770,7 @@
       "projectCreatedAt": "2026-01-22T12:09:36Z",
       "discoveryUrl": "https://github.com/waooAI/waoowaoo",
       "signal": {
-        "stars": 14252
+        "stars": 14251
       },
       "channels": [
         {
@@ -18769,7 +18795,7 @@
       "projectCreatedAt": "2023-03-04T13:41:18Z",
       "discoveryUrl": "https://github.com/e2b-dev/E2B",
       "signal": {
-        "stars": 13917
+        "stars": 13922
       },
       "channels": [
         {
@@ -18819,7 +18845,7 @@
       "projectCreatedAt": "2026-01-26T07:31:13Z",
       "discoveryUrl": "https://github.com/jo-inc/camofox-browser",
       "signal": {
-        "stars": 11151
+        "stars": 11156
       },
       "channels": [
         {
@@ -18844,7 +18870,7 @@
       "projectCreatedAt": "2025-05-10T14:12:46Z",
       "discoveryUrl": "https://github.com/presenton/presenton",
       "signal": {
-        "stars": 10698
+        "stars": 10702
       },
       "channels": [
         {
@@ -18869,7 +18895,7 @@
       "projectCreatedAt": "2026-06-11T12:18:13Z",
       "discoveryUrl": "https://github.com/omnigent-ai/omnigent",
       "signal": {
-        "stars": 10157
+        "stars": 10163
       },
       "channels": [
         {
@@ -18894,7 +18920,7 @@
       "projectCreatedAt": "2026-05-11T01:08:15Z",
       "discoveryUrl": "https://github.com/simonlin1212/a-stock-data",
       "signal": {
-        "stars": 10067
+        "stars": 10082
       },
       "channels": [
         {
@@ -18944,7 +18970,7 @@
       "projectCreatedAt": "2025-08-27T16:03:45Z",
       "discoveryUrl": "https://github.com/frankbria/ralph-claude-code",
       "signal": {
-        "stars": 9642
+        "stars": 9643
       },
       "channels": [
         {
@@ -18969,7 +18995,7 @@
       "projectCreatedAt": "2026-02-01T05:59:24Z",
       "discoveryUrl": "https://github.com/EvoMap/evolver",
       "signal": {
-        "stars": 9111
+        "stars": 9112
       },
       "channels": [
         {
@@ -18994,7 +19020,7 @@
       "projectCreatedAt": "2025-06-28T20:18:15Z",
       "discoveryUrl": "https://github.com/SWE-agent/mini-swe-agent",
       "signal": {
-        "stars": 7881
+        "stars": 7886
       },
       "channels": [
         {
@@ -19019,7 +19045,7 @@
       "projectCreatedAt": "2026-07-31T09:40:58Z",
       "discoveryUrl": "https://github.com/genspark-ai/genoffice",
       "signal": {
-        "stars": 7497
+        "stars": 7504
       },
       "channels": [
         {
@@ -19044,7 +19070,7 @@
       "projectCreatedAt": "2025-11-26T05:54:26Z",
       "discoveryUrl": "https://github.com/ChatLab/ChatLab",
       "signal": {
-        "stars": 7413
+        "stars": 7416
       },
       "channels": [
         {
@@ -19069,7 +19095,7 @@
       "projectCreatedAt": "2026-05-04T22:18:51Z",
       "discoveryUrl": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
       "signal": {
-        "stars": 7143
+        "stars": 7144
       },
       "channels": [
         {
@@ -19169,7 +19195,7 @@
       "projectCreatedAt": "2026-03-27T04:34:30Z",
       "discoveryUrl": "https://github.com/dramaclaw/dramaclaw",
       "signal": {
-        "stars": 6266
+        "stars": 6272
       },
       "channels": [
         {
@@ -19219,7 +19245,7 @@
       "projectCreatedAt": "2026-02-12T09:56:20Z",
       "discoveryUrl": "https://github.com/netease-youdao/LobsterAI",
       "signal": {
-        "stars": 6063
+        "stars": 6064
       },
       "channels": [
         {
@@ -19244,7 +19270,7 @@
       "projectCreatedAt": "2026-01-14T01:14:04Z",
       "discoveryUrl": "https://github.com/Q00/ouroboros",
       "signal": {
-        "stars": 6071
+        "stars": 6073
       },
       "channels": [
         {
@@ -19294,7 +19320,7 @@
       "projectCreatedAt": "2026-04-12T15:04:11Z",
       "discoveryUrl": "https://github.com/KnockOutEZ/wigolo",
       "signal": {
-        "stars": 5384
+        "stars": 5388
       },
       "channels": [
         {
@@ -19319,7 +19345,7 @@
       "projectCreatedAt": "2026-03-11T12:17:05Z",
       "discoveryUrl": "https://github.com/iflytek/skillhub",
       "signal": {
-        "stars": 5146
+        "stars": 5150
       },
       "channels": [
         {
@@ -19419,7 +19445,7 @@
       "projectCreatedAt": "2026-04-06T01:56:39Z",
       "discoveryUrl": "https://github.com/FailproofAI/failproofai",
       "signal": {
-        "stars": 5108
+        "stars": 5114
       },
       "channels": [
         {
@@ -19444,7 +19470,7 @@
       "projectCreatedAt": "2026-01-26T11:19:26Z",
       "discoveryUrl": "https://github.com/EvoScientist/EvoScientist",
       "signal": {
-        "stars": 4969
+        "stars": 4972
       },
       "channels": [
         {
@@ -19469,7 +19495,7 @@
       "projectCreatedAt": "2023-03-22T14:23:39Z",
       "discoveryUrl": "https://github.com/vastsa/PI-Desktop",
       "signal": {
-        "stars": 5177
+        "stars": 5200
       },
       "channels": [
         {
@@ -19494,7 +19520,7 @@
       "projectCreatedAt": "2026-07-03T02:50:10Z",
       "discoveryUrl": "https://github.com/aipoch/open-science",
       "signal": {
-        "stars": 4904
+        "stars": 4905
       },
       "channels": [
         {
@@ -19519,7 +19545,7 @@
       "projectCreatedAt": "2026-06-18T06:18:29Z",
       "discoveryUrl": "https://github.com/shy3130/tick-stock-panel",
       "signal": {
-        "stars": 4880
+        "stars": 4883
       },
       "channels": [
         {
@@ -19569,7 +19595,7 @@
       "projectCreatedAt": "2023-04-26T09:54:28Z",
       "discoveryUrl": "https://github.com/Agenta-AI/agenta",
       "signal": {
-        "stars": 4774
+        "stars": 4776
       },
       "channels": [
         {
@@ -19619,7 +19645,7 @@
       "projectCreatedAt": "2025-06-21T20:43:25Z",
       "discoveryUrl": "https://github.com/zebbern/claude-code-guide",
       "signal": {
-        "stars": 4630
+        "stars": 4631
       },
       "channels": [
         {
@@ -19644,7 +19670,7 @@
       "projectCreatedAt": "2026-07-08T12:54:20Z",
       "discoveryUrl": "https://github.com/TencentCloud/Octop",
       "signal": {
-        "stars": 4605
+        "stars": 4619
       },
       "channels": [
         {
@@ -19669,7 +19695,7 @@
       "projectCreatedAt": "2026-03-31T18:00:16Z",
       "discoveryUrl": "https://github.com/lintsinghua/claude-code-book",
       "signal": {
-        "stars": 4269
+        "stars": 4270
       },
       "channels": [
         {
@@ -19719,7 +19745,7 @@
       "projectCreatedAt": "2026-07-16T21:21:54Z",
       "discoveryUrl": "https://github.com/kirodotdev/KiroCrew",
       "signal": {
-        "stars": 4083
+        "stars": 4087
       },
       "channels": [
         {
@@ -19744,7 +19770,7 @@
       "projectCreatedAt": "2026-04-03T06:31:20Z",
       "discoveryUrl": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
       "signal": {
-        "stars": 4226
+        "stars": 4252
       },
       "channels": [
         {
@@ -19769,7 +19795,7 @@
       "projectCreatedAt": "2024-06-04T05:01:45Z",
       "discoveryUrl": "https://github.com/LazyAGI/LazyLLM",
       "signal": {
-        "stars": 3884
+        "stars": 3885
       },
       "channels": [
         {
@@ -19869,7 +19895,7 @@
       "projectCreatedAt": "2026-07-03T15:06:45Z",
       "discoveryUrl": "https://github.com/synthetic-sciences/openscience",
       "signal": {
-        "stars": 3632
+        "stars": 3633
       },
       "channels": [
         {
@@ -19894,7 +19920,7 @@
       "projectCreatedAt": "2026-02-22T07:26:36Z",
       "discoveryUrl": "https://github.com/nextlevelbuilder/goclaw",
       "signal": {
-        "stars": 3609
+        "stars": 3610
       },
       "channels": [
         {
@@ -19919,7 +19945,7 @@
       "projectCreatedAt": "2023-04-21T08:31:00Z",
       "discoveryUrl": "https://github.com/SamurAIGPT/llm-wiki-agent",
       "signal": {
-        "stars": 3558
+        "stars": 3559
       },
       "channels": [
         {
@@ -19944,7 +19970,7 @@
       "projectCreatedAt": "2024-08-23T14:03:06Z",
       "discoveryUrl": "https://github.com/i-am-bee/beeai-framework",
       "signal": {
-        "stars": 3409
+        "stars": 3410
       },
       "channels": [
         {
@@ -19969,7 +19995,7 @@
       "projectCreatedAt": "2026-05-13T00:22:30Z",
       "discoveryUrl": "https://github.com/simonlin1212/TradingAgents-astock",
       "signal": {
-        "stars": 3508
+        "stars": 3517
       },
       "channels": [
         {
@@ -20044,7 +20070,7 @@
       "projectCreatedAt": "2026-03-07T13:46:10Z",
       "discoveryUrl": "https://github.com/whiteguo233/OpenBiliClaw",
       "signal": {
-        "stars": 3343
+        "stars": 3344
       },
       "channels": [
         {
@@ -20094,7 +20120,7 @@
       "projectCreatedAt": "2026-04-20T12:46:31Z",
       "discoveryUrl": "https://github.com/cosmicstack-labs/mercury-agent",
       "signal": {
-        "stars": 3167
+        "stars": 3168
       },
       "channels": [
         {
@@ -20144,7 +20170,7 @@
       "projectCreatedAt": "2017-12-17T13:51:22Z",
       "discoveryUrl": "https://github.com/SciSharp/BotSharp",
       "signal": {
-        "stars": 3104
+        "stars": 3105
       },
       "channels": [
         {
@@ -20169,7 +20195,7 @@
       "projectCreatedAt": "2026-07-20T14:58:48Z",
       "discoveryUrl": "https://github.com/shengjidaguai-china/goutoujunshi",
       "signal": {
-        "stars": 3463
+        "stars": 3553
       },
       "channels": [
         {
@@ -20269,7 +20295,7 @@
       "projectCreatedAt": "2026-01-29T19:36:31Z",
       "discoveryUrl": "https://github.com/moltis-org/moltis",
       "signal": {
-        "stars": 2869
+        "stars": 2870
       },
       "channels": [
         {
@@ -20294,7 +20320,7 @@
       "projectCreatedAt": "2026-06-03T13:00:34Z",
       "discoveryUrl": "https://github.com/rlaope/oh-my-hermes",
       "signal": {
-        "stars": 2869
+        "stars": 2873
       },
       "channels": [
         {
@@ -20344,7 +20370,7 @@
       "projectCreatedAt": "2026-08-31T01:39:18Z",
       "discoveryUrl": "https://github.com/Human-Agent-Society/reef",
       "signal": {
-        "stars": 4050
+        "stars": 4060
       },
       "channels": [
         {
@@ -20394,7 +20420,7 @@
       "projectCreatedAt": "2026-08-31T01:02:18Z",
       "discoveryUrl": "https://github.com/2akouwu/reverify",
       "signal": {
-        "stars": 1240
+        "stars": 1239
       },
       "channels": [
         {
@@ -20469,7 +20495,7 @@
       "projectCreatedAt": "2026-09-12T07:33:31Z",
       "discoveryUrl": "https://github.com/youngyangyang04/llm-master",
       "signal": {
-        "stars": 901
+        "stars": 905
       },
       "channels": [
         {
@@ -20494,7 +20520,7 @@
       "projectCreatedAt": "2026-09-17T14:23:21Z",
       "discoveryUrl": "https://github.com/yibie/awesome-jev",
       "signal": {
-        "stars": 1252
+        "stars": 1289
       },
       "channels": [
         {
@@ -20519,7 +20545,7 @@
       "projectCreatedAt": "2026-09-04T08:34:54Z",
       "discoveryUrl": "https://github.com/TokenRhythm/NeoHorse",
       "signal": {
-        "stars": 799
+        "stars": 808
       },
       "channels": [
         {
@@ -20544,7 +20570,7 @@
       "projectCreatedAt": "2026-08-26T12:41:30Z",
       "discoveryUrl": "https://github.com/peonist-ai/halogen-flash-server",
       "signal": {
-        "stars": 648
+        "stars": 649
       },
       "channels": [
         {
@@ -20569,7 +20595,7 @@
       "projectCreatedAt": "2026-09-19T16:48:59Z",
       "discoveryUrl": "https://github.com/v-modal/awesome-jev-tools",
       "signal": {
-        "stars": 637
+        "stars": 657
       },
       "channels": [
         {
@@ -20644,7 +20670,7 @@
       "projectCreatedAt": "2026-09-01T00:05:54Z",
       "discoveryUrl": "https://github.com/Nehanth/swarmllm",
       "signal": {
-        "stars": 431
+        "stars": 432
       },
       "channels": [
         {
@@ -20669,7 +20695,7 @@
       "projectCreatedAt": "2026-09-17T06:56:37Z",
       "discoveryUrl": "https://github.com/AbdelStark/awesome-typesafe-jev",
       "signal": {
-        "stars": 460
+        "stars": 465
       },
       "channels": [
         {
@@ -20694,7 +20720,7 @@
       "projectCreatedAt": "2026-08-28T06:42:21Z",
       "discoveryUrl": "https://github.com/carloslfu/slotstream",
       "signal": {
-        "stars": 392
+        "stars": 391
       },
       "channels": [
         {
@@ -20744,7 +20770,7 @@
       "projectCreatedAt": "2026-09-06T08:42:57Z",
       "discoveryUrl": "https://github.com/aimeoa/hanshuang-codex",
       "signal": {
-        "stars": 377
+        "stars": 381
       },
       "channels": [
         {
@@ -20869,7 +20895,7 @@
       "projectCreatedAt": "2026-09-02T16:32:59Z",
       "discoveryUrl": "https://github.com/Agenta-AI/awesome-ai-agent-platforms",
       "signal": {
-        "stars": 273
+        "stars": 274
       },
       "channels": [
         {
@@ -20919,7 +20945,7 @@
       "projectCreatedAt": "2026-09-17T18:11:49Z",
       "discoveryUrl": "https://github.com/ekzhang/openjev-sglang",
       "signal": {
-        "stars": 266
+        "stars": 268
       },
       "channels": [
         {
@@ -20944,7 +20970,7 @@
       "projectCreatedAt": "2026-09-15T01:57:40Z",
       "discoveryUrl": "https://github.com/ruc-datalab/EvoOntology",
       "signal": {
-        "stars": 334
+        "stars": 340
       },
       "channels": [
         {
@@ -20969,7 +20995,7 @@
       "projectCreatedAt": "2026-08-29T20:44:02Z",
       "discoveryUrl": "https://github.com/ashutoshsinghpr7/wikiskill",
       "signal": {
-        "stars": 241
+        "stars": 242
       },
       "channels": [
         {
@@ -21019,7 +21045,7 @@
       "projectCreatedAt": "2026-09-13T20:29:08Z",
       "discoveryUrl": "https://github.com/pliablepixels/gap-trap",
       "signal": {
-        "stars": 176
+        "stars": 177
       },
       "channels": [
         {
@@ -21069,7 +21095,7 @@
       "projectCreatedAt": "2026-09-08T05:07:25Z",
       "discoveryUrl": "https://github.com/tudoumashu/ai-memory-skillpack",
       "signal": {
-        "stars": 183
+        "stars": 184
       },
       "channels": [
         {
@@ -21244,7 +21270,7 @@
       "projectCreatedAt": "2026-09-17T20:16:57Z",
       "discoveryUrl": "https://github.com/OmniJev/awesome-jev-gallery",
       "signal": {
-        "stars": 182
+        "stars": 191
       },
       "channels": [
         {
@@ -21269,7 +21295,7 @@
       "projectCreatedAt": "2026-09-17T04:14:19Z",
       "discoveryUrl": "https://github.com/0xNatoshi/jev-codex-router",
       "signal": {
-        "stars": 215
+        "stars": 219
       },
       "channels": [
         {
@@ -21419,7 +21445,7 @@
       "projectCreatedAt": "2026-08-26T11:00:59Z",
       "discoveryUrl": "https://github.com/runta-dev/errand",
       "signal": {
-        "stars": 121
+        "stars": 123
       },
       "channels": [
         {
@@ -21544,7 +21570,7 @@
       "projectCreatedAt": "2026-09-07T14:19:35Z",
       "discoveryUrl": "https://github.com/JakeATX/llamAmpere",
       "signal": {
-        "stars": 107
+        "stars": 108
       },
       "channels": [
         {
@@ -21844,7 +21870,7 @@
       "projectCreatedAt": "2026-08-30T12:58:09Z",
       "discoveryUrl": "https://github.com/udaysharmadev/Not-Ai",
       "signal": {
-        "stars": 90
+        "stars": 91
       },
       "channels": [
         {
@@ -21919,7 +21945,7 @@
       "projectCreatedAt": "2026-09-18T15:43:06Z",
       "discoveryUrl": "https://github.com/kraayenjon/awesome-jev",
       "signal": {
-        "stars": 105
+        "stars": 110
       },
       "channels": [
         {
@@ -22044,7 +22070,7 @@
       "projectCreatedAt": "2026-09-17T15:11:57Z",
       "discoveryUrl": "https://github.com/agent-labs-dev/fastbrowse",
       "signal": {
-        "stars": 96
+        "stars": 97
       },
       "channels": [
         {
@@ -22244,7 +22270,7 @@
       "projectCreatedAt": "2026-09-07T15:08:13Z",
       "discoveryUrl": "https://github.com/undefined-ui/second-brain-os",
       "signal": {
-        "stars": 96
+        "stars": 131
       },
       "channels": [
         {
@@ -22469,7 +22495,7 @@
       "projectCreatedAt": "2026-09-15T02:55:02Z",
       "discoveryUrl": "https://github.com/lxsssssss/pdf-translate",
       "signal": {
-        "stars": 82
+        "stars": 87
       },
       "channels": [
         {
@@ -22893,7 +22919,7 @@
       "publishedAt": "2026-09-22T14:45:55.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802208",
       "signal": {
-        "points": 2,
+        "points": 4,
         "comments": 0
       },
       "channels": [
@@ -25842,7 +25868,7 @@
       "publishedAt": "2026-09-21T17:50:35.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49790729",
       "signal": {
-        "points": 3,
+        "points": 4,
         "comments": 0
       },
       "channels": [
@@ -25964,7 +25990,7 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-21T21:58:32.875Z",
-      "updatedAt": "2026-09-22T16:56:58.099Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
       "revisions": [
         {
           "title": "Writing Rust code faster than SotA by asking agents to make the code faster",
@@ -25990,6 +26016,21 @@
           "title": "Rust code faster than SOTA libraries by asking agents to make the code faster",
           "publishedAt": "2026-09-22T05:51:57.000Z",
           "at": "2026-09-22T16:56:58.099Z"
+        },
+        {
+          "title": "Writing Rust code faster than SotA by asking agents to make the code faster",
+          "publishedAt": "2026-09-21T17:01:44.000Z",
+          "at": "2026-09-22T21:18:13.626Z"
+        },
+        {
+          "title": "Writing Rust code that's fast by asking agents to make the code faster",
+          "publishedAt": "2026-09-22T15:38:24.000Z",
+          "at": "2026-09-22T21:18:13.626Z"
+        },
+        {
+          "title": "Rust code faster than SOTA libraries by asking agents to make the code faster",
+          "publishedAt": "2026-09-22T05:51:57.000Z",
+          "at": "2026-09-22T21:18:13.626Z"
         }
       ]
     },
@@ -26003,8 +26044,8 @@
       "publishedAt": "2026-09-21T16:22:26.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49789361",
       "signal": {
-        "points": 23,
-        "comments": 6
+        "points": 26,
+        "comments": 7
       },
       "channels": [
         {
@@ -26934,7 +26975,7 @@
       "projectCreatedAt": "2026-09-21T02:54:51Z",
       "discoveryUrl": "https://github.com/freestylefly/WeChatBridge",
       "signal": {
-        "stars": 205
+        "stars": 236
       },
       "channels": [
         {
@@ -26959,7 +27000,7 @@
       "projectCreatedAt": "2026-08-26T13:49:24Z",
       "discoveryUrl": "https://github.com/whitecircle/halo",
       "signal": {
-        "stars": 620
+        "stars": 644
       },
       "channels": [
         {
@@ -26984,7 +27025,7 @@
       "projectCreatedAt": "2026-09-19T18:01:10Z",
       "discoveryUrl": "https://github.com/walidboulanouar/awesome-jev-use-cases",
       "signal": {
-        "stars": 100
+        "stars": 105
       },
       "channels": [
         {
@@ -27291,27 +27332,33 @@
     "5a2764b2c656edcfcb33bdf1": {
       "id": "5a2764b2c656edcfcb33bdf1",
       "url": "https://www.persuasion.community/p/why-i-changed-my-mind-about-ai-risk",
-      "title": "Francis Fukuyama: Why I Changed My Mind About AI Risk",
+      "title": "I Changed My Mind About AI Risk",
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
-      "publishedAt": "2026-09-22T02:54:32.000Z",
-      "discoveryUrl": "https://news.ycombinator.com/item?id=49796300",
+      "publishedAt": "2026-09-22T18:09:27.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805663",
       "signal": {
-        "points": 3,
-        "comments": 0
+        "points": 2,
+        "comments": 1
       },
       "channels": [
         {
           "id": "hn-ai",
-          "url": "https://news.ycombinator.com/item?id=49796300",
+          "url": "https://news.ycombinator.com/item?id=49805663",
           "evidence": "discovery-only"
         }
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T04:55:16.023Z",
-      "updatedAt": "2026-09-22T04:55:16.023Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": [
+        {
+          "title": "Francis Fukuyama: Why I Changed My Mind About AI Risk",
+          "publishedAt": "2026-09-22T02:54:32.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
+        }
+      ]
     },
     "117a6919bc88d2a4ff7d1bd4": {
       "id": "117a6919bc88d2a4ff7d1bd4",
@@ -27943,8 +27990,8 @@
       "publishedAt": "2026-09-22T14:35:15.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802030",
       "signal": {
-        "points": 70,
-        "comments": 27
+        "points": 106,
+        "comments": 48
       },
       "channels": [
         {
@@ -28507,15 +28554,15 @@
     "dba07340de7f5be442dec406": {
       "id": "dba07340de7f5be442dec406",
       "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
-      "title": "Claude Status – Elevated errors for multiple models",
+      "title": "Elevated errors for multiple models – Resolved",
       "feed": "hn-model",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
       "publishedAt": "2026-09-22T01:05:19.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49795579",
       "signal": {
-        "points": 137,
-        "comments": 104
+        "points": 138,
+        "comments": 107
       },
       "channels": [
         {
@@ -28526,8 +28573,14 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T04:55:17.818Z",
-      "updatedAt": "2026-09-22T04:55:17.818Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": [
+        {
+          "title": "Claude Status – Elevated errors for multiple models",
+          "publishedAt": "2026-09-22T01:05:19.000Z",
+          "at": "2026-09-22T21:18:14.465Z"
+        }
+      ]
     },
     "fa1a14a0c6b74edbf5ee9f52": {
       "id": "fa1a14a0c6b74edbf5ee9f52",
@@ -28665,7 +28718,7 @@
       "projectCreatedAt": "2026-09-21T14:03:13Z",
       "discoveryUrl": "https://github.com/andududu/jeview",
       "signal": {
-        "stars": 33
+        "stars": 34
       },
       "channels": [
         {
@@ -28765,7 +28818,7 @@
       "projectCreatedAt": "2026-09-21T11:12:53Z",
       "discoveryUrl": "https://github.com/jev-chat/jev-chat-jarvis",
       "signal": {
-        "stars": 3540
+        "stars": 3652
       },
       "channels": [
         {
@@ -29736,8 +29789,8 @@
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
-      "publishedAt": "2026-09-22T06:37:43.000Z",
-      "discoveryUrl": "https://news.ycombinator.com/item?id=49797473",
+      "publishedAt": "2026-09-22T14:54:51.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49802373",
       "signal": {
         "points": 1,
         "comments": 0
@@ -29745,13 +29798,13 @@
       "channels": [
         {
           "id": "hn-ai",
-          "url": "https://news.ycombinator.com/item?id=49797473",
+          "url": "https://news.ycombinator.com/item?id=49802373",
           "evidence": "discovery-only"
         }
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T11:37:34.054Z",
-      "updatedAt": "2026-09-22T16:56:57.189Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
       "revisions": [
         {
           "title": "A Summer of AI Optimization",
@@ -29762,6 +29815,11 @@
           "title": "A Summer of AI Optimization",
           "publishedAt": "2026-09-22T14:54:51.000Z",
           "at": "2026-09-22T16:56:57.189Z"
+        },
+        {
+          "title": "A Summer of AI Optimization",
+          "publishedAt": "2026-09-22T06:37:43.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
         }
       ]
     },
@@ -29972,23 +30030,29 @@
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
-      "publishedAt": "2026-09-22T04:58:02.000Z",
-      "discoveryUrl": "https://news.ycombinator.com/item?id=49796949",
+      "publishedAt": "2026-09-22T17:39:01.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805164",
       "signal": {
-        "points": 5,
-        "comments": 1
+        "points": 3,
+        "comments": 0
       },
       "channels": [
         {
           "id": "hn-ai",
-          "url": "https://news.ycombinator.com/item?id=49796949",
+          "url": "https://news.ycombinator.com/item?id=49805164",
           "evidence": "discovery-only"
         }
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T11:37:34.054Z",
-      "updatedAt": "2026-09-22T11:37:34.054Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": [
+        {
+          "title": "Tiny Startups Are Getting Even Smaller with Help from AI",
+          "publishedAt": "2026-09-22T04:58:02.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
+        }
+      ]
     },
     "a78bf587c937584fb8cadb7e": {
       "id": "a78bf587c937584fb8cadb7e",
@@ -30075,7 +30139,7 @@
       "publishedAt": "2026-09-22T08:29:19.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49798133",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 0
       },
       "channels": [
@@ -30375,8 +30439,8 @@
       "publishedAt": "2026-09-22T06:08:39.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49797323",
       "signal": {
-        "points": 319,
-        "comments": 120
+        "points": 363,
+        "comments": 142
       },
       "channels": [
         {
@@ -30451,7 +30515,7 @@
       "projectCreatedAt": "2026-09-11T04:23:37Z",
       "discoveryUrl": "https://github.com/anticipate218/math-modeling-skill",
       "signal": {
-        "stars": 35
+        "stars": 37
       },
       "channels": [
         {
@@ -30501,7 +30565,7 @@
       "projectCreatedAt": "2026-09-21T11:39:32Z",
       "discoveryUrl": "https://github.com/jev-chat/jev-chat-jarvis-mac",
       "signal": {
-        "stars": 163
+        "stars": 171
       },
       "channels": [
         {
@@ -30526,7 +30590,7 @@
       "projectCreatedAt": "2026-09-17T19:43:33Z",
       "discoveryUrl": "https://github.com/lordx64/phantom-kv",
       "signal": {
-        "stars": 105
+        "stars": 119
       },
       "channels": [
         {
@@ -30623,15 +30687,15 @@
     "308053ac246a0171282872cd": {
       "id": "308053ac246a0171282872cd",
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-      "title": "Claude Opus 5.5: Intelligence, Performance and Price Analysis",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
       "publishedAt": "2026-09-22T16:51:31.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804316",
       "signal": {
-        "points": 1,
-        "comments": 0
+        "points": 178,
+        "comments": 51
       },
       "channels": [
         {
@@ -30647,8 +30711,14 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T16:56:57.189Z",
-      "updatedAt": "2026-09-22T16:56:57.189Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": [
+        {
+          "title": "Claude Opus 5.5: Intelligence, Performance and Price Analysis",
+          "publishedAt": "2026-09-22T16:51:31.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
+        }
+      ]
     },
     "c7ae31eb238d6f9b1b3631d7": {
       "id": "c7ae31eb238d6f9b1b3631d7",
@@ -30660,7 +30730,7 @@
       "publishedAt": "2026-09-22T16:50:55.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804303",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 0
       },
       "channels": [
@@ -30715,7 +30785,7 @@
       "publishedAt": "2026-09-22T16:45:13.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804190",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 1
       },
       "channels": [
@@ -30740,7 +30810,7 @@
       "publishedAt": "2026-09-22T16:44:54.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804179",
       "signal": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
       "channels": [
@@ -30790,7 +30860,7 @@
       "publishedAt": "2026-09-22T16:42:02.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804123",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 0
       },
       "channels": [
@@ -30815,7 +30885,7 @@
       "publishedAt": "2026-09-22T16:39:35.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804076",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 0
       },
       "channels": [
@@ -30870,8 +30940,8 @@
       "publishedAt": "2026-09-22T16:36:04.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49804012",
       "signal": {
-        "points": 3,
-        "comments": 2
+        "points": 8,
+        "comments": 7
       },
       "channels": [
         {
@@ -30900,7 +30970,7 @@
       "publishedAt": "2026-09-22T16:28:30.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803883",
       "signal": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
       "channels": [
@@ -30925,8 +30995,8 @@
       "publishedAt": "2026-09-22T16:26:18.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803849",
       "signal": {
-        "points": 3,
-        "comments": 0
+        "points": 10,
+        "comments": 1
       },
       "channels": [
         {
@@ -31015,8 +31085,8 @@
       "publishedAt": "2026-09-22T16:15:06.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803683",
       "signal": {
-        "points": 6,
-        "comments": 0
+        "points": 31,
+        "comments": 2
       },
       "channels": [
         {
@@ -31050,8 +31120,8 @@
       "publishedAt": "2026-09-22T16:02:49.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803482",
       "signal": {
-        "points": 2,
-        "comments": 0
+        "points": 3,
+        "comments": 1
       },
       "channels": [
         {
@@ -31075,8 +31145,8 @@
       "publishedAt": "2026-09-22T16:02:08.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803477",
       "signal": {
-        "points": 2,
-        "comments": 2
+        "points": 4,
+        "comments": 3
       },
       "channels": [
         {
@@ -31185,7 +31255,7 @@
       "publishedAt": "2026-09-22T15:53:20.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803321",
       "signal": {
-        "points": 9,
+        "points": 10,
         "comments": 1
       },
       "channels": [
@@ -31270,8 +31340,8 @@
       "publishedAt": "2026-09-22T15:37:41.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803077",
       "signal": {
-        "points": 4,
-        "comments": 3
+        "points": 5,
+        "comments": 4
       },
       "channels": [
         {
@@ -31465,7 +31535,7 @@
       "publishedAt": "2026-09-22T15:16:18.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802729",
       "signal": {
-        "points": 5,
+        "points": 7,
         "comments": 1
       },
       "channels": [
@@ -31585,8 +31655,8 @@
       "publishedAt": "2026-09-22T15:09:45.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802619",
       "signal": {
-        "points": 15,
-        "comments": 21
+        "points": 16,
+        "comments": 24
       },
       "channels": [
         {
@@ -31691,7 +31761,7 @@
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802433",
       "signal": {
         "points": 2,
-        "comments": 8
+        "comments": 9
       },
       "channels": [
         {
@@ -31715,8 +31785,8 @@
       "publishedAt": "2026-09-22T14:57:03.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802417",
       "signal": {
-        "points": 7,
-        "comments": 14
+        "points": 9,
+        "comments": 17
       },
       "channels": [
         {
@@ -31855,7 +31925,7 @@
       "publishedAt": "2026-09-22T14:47:07.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802233",
       "signal": {
-        "points": 2,
+        "points": 5,
         "comments": 0
       },
       "channels": [
@@ -31911,7 +31981,7 @@
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802115",
       "signal": {
         "points": 6,
-        "comments": 0
+        "comments": 1
       },
       "channels": [
         {
@@ -31935,8 +32005,8 @@
       "publishedAt": "2026-09-22T14:38:09.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802070",
       "signal": {
-        "points": 3,
-        "comments": 0
+        "points": 5,
+        "comments": 1
       },
       "channels": [
         {
@@ -32090,8 +32160,8 @@
       "publishedAt": "2026-09-22T14:11:31.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801594",
       "signal": {
-        "points": 5,
-        "comments": 4
+        "points": 11,
+        "comments": 9
       },
       "channels": [
         {
@@ -32300,8 +32370,8 @@
       "publishedAt": "2026-09-22T13:52:56.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801330",
       "signal": {
-        "points": 72,
-        "comments": 53
+        "points": 81,
+        "comments": 57
       },
       "channels": [
         {
@@ -32325,8 +32395,8 @@
       "publishedAt": "2026-09-22T13:52:47.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801329",
       "signal": {
-        "points": 92,
-        "comments": 27
+        "points": 144,
+        "comments": 49
       },
       "channels": [
         {
@@ -32465,8 +32535,8 @@
       "publishedAt": "2026-09-22T13:27:29.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800953",
       "signal": {
-        "points": 61,
-        "comments": 44
+        "points": 68,
+        "comments": 52
       },
       "channels": [
         {
@@ -32516,7 +32586,7 @@
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800917",
       "signal": {
         "points": 19,
-        "comments": 11
+        "comments": 12
       },
       "channels": [
         {
@@ -32655,7 +32725,7 @@
       "publishedAt": "2026-09-22T13:01:01.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800572",
       "signal": {
-        "points": 3,
+        "points": 4,
         "comments": 1
       },
       "channels": [
@@ -32673,17 +32743,22 @@
     "9e3ed547b6b0c99709e69d2e": {
       "id": "9e3ed547b6b0c99709e69d2e",
       "url": "https://arxiv.org/abs/2609.15369",
-      "title": "Training a model to identify AI-generated web content from structure alone",
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
       "feed": "hn-ai",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
       "publishedAt": "2026-09-22T13:00:49.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800566",
       "signal": {
-        "points": 4,
-        "comments": 1
+        "points": 21,
+        "comments": 5
       },
       "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49800566",
+          "evidence": "discovery-only"
+        },
         {
           "id": "hn-ai",
           "url": "https://news.ycombinator.com/item?id=49800566",
@@ -32697,8 +32772,14 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T16:56:57.189Z",
-      "updatedAt": "2026-09-22T16:56:57.189Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": [
+        {
+          "title": "Training a model to identify AI-generated web content from structure alone",
+          "publishedAt": "2026-09-22T13:00:49.000Z",
+          "at": "2026-09-22T21:18:12.487Z"
+        }
+      ]
     },
     "67c8a463e6ebefb2c0e9f5cd": {
       "id": "67c8a463e6ebefb2c0e9f5cd",
@@ -32841,7 +32922,7 @@
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800187",
       "signal": {
         "points": 2,
-        "comments": 1
+        "comments": 3
       },
       "channels": [
         {
@@ -32980,8 +33061,8 @@
       "publishedAt": "2026-09-22T12:11:09.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49799965",
       "signal": {
-        "points": 332,
-        "comments": 460
+        "points": 355,
+        "comments": 499
       },
       "channels": [
         {
@@ -33170,8 +33251,8 @@
       "publishedAt": "2026-09-22T16:32:03.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803931",
       "signal": {
-        "points": 7,
-        "comments": 0
+        "points": 9,
+        "comments": 1
       },
       "channels": [
         {
@@ -33246,7 +33327,7 @@
       "discoveryUrl": "https://news.ycombinator.com/item?id=49803251",
       "signal": {
         "points": 1,
-        "comments": 1
+        "comments": 2
       },
       "channels": [
         {
@@ -33438,15 +33519,15 @@
     "bd7f3b1aba4e139777f7b80b": {
       "id": "bd7f3b1aba4e139777f7b80b",
       "url": "https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration",
-      "title": "Vacate a Drone Restriction That Criminalized Recording Immigration Agents",
+      "title": "Vacate a drone restriction that criminalized recording immigration agents",
       "feed": "hn-agent",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
       "publishedAt": "2026-09-22T15:07:03.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802581",
       "signal": {
-        "points": 39,
-        "comments": 7
+        "points": 82,
+        "comments": 16
       },
       "channels": [
         {
@@ -33457,8 +33538,14 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T16:56:58.099Z",
-      "updatedAt": "2026-09-22T16:56:58.099Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": [
+        {
+          "title": "Vacate a Drone Restriction That Criminalized Recording Immigration Agents",
+          "publishedAt": "2026-09-22T15:07:03.000Z",
+          "at": "2026-09-22T21:18:13.626Z"
+        }
+      ]
     },
     "9d13c952a638fe18a6097dd7": {
       "id": "9d13c952a638fe18a6097dd7",
@@ -33600,7 +33687,7 @@
       "publishedAt": "2026-09-22T13:51:11.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801313",
       "signal": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
       "channels": [
@@ -33775,7 +33862,7 @@
       "publishedAt": "2026-09-22T12:39:16.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49800269",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 1
       },
       "channels": [
@@ -33855,8 +33942,8 @@
       "publishedAt": "2026-09-22T12:05:17.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49799910",
       "signal": {
-        "points": 25,
-        "comments": 51
+        "points": 27,
+        "comments": 56
       },
       "channels": [
         {
@@ -34080,7 +34167,7 @@
       "publishedAt": "2026-09-22T15:22:03.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802821",
       "signal": {
-        "points": 1,
+        "points": 2,
         "comments": 0
       },
       "channels": [
@@ -34098,15 +34185,15 @@
     "a1214a1aaf3a42108c92a3c7": {
       "id": "a1214a1aaf3a42108c92a3c7",
       "url": "https://github.com/General-Instinct/InstinctFlash",
-      "title": "Show HN: InstinctFlash – Run 5B world-action models in real time on Jetson Thor",
+      "title": "Show HN: InstinctFlash – High-Performance Serving Runtime for Robotics Models",
       "feed": "hn-model",
       "publisher": "Hacker News discovery",
       "evidence": "discovery-only",
       "publishedAt": "2026-09-22T15:20:06.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49802789",
       "signal": {
-        "points": 4,
-        "comments": 0
+        "points": 17,
+        "comments": 2
       },
       "channels": [
         {
@@ -34117,8 +34204,14 @@
       ],
       "status": "candidate",
       "discoveredAt": "2026-09-22T16:56:59.057Z",
-      "updatedAt": "2026-09-22T16:56:59.057Z",
-      "revisions": []
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": [
+        {
+          "title": "Show HN: InstinctFlash – Run 5B world-action models in real time on Jetson Thor",
+          "publishedAt": "2026-09-22T15:20:06.000Z",
+          "at": "2026-09-22T21:18:14.465Z"
+        }
+      ]
     },
     "5c59206fa8586236ae33fabb": {
       "id": "5c59206fa8586236ae33fabb",
@@ -34180,7 +34273,7 @@
       "publishedAt": "2026-09-22T14:26:27.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801865",
       "signal": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
       "channels": [
@@ -34305,7 +34398,7 @@
       "publishedAt": "2026-09-22T14:03:06.000Z",
       "discoveryUrl": "https://news.ycombinator.com/item?id=49801486",
       "signal": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
       "channels": [
@@ -34456,7 +34549,7 @@
       "projectCreatedAt": "2026-08-27T11:39:55Z",
       "discoveryUrl": "https://github.com/lightsifter/sift-light",
       "signal": {
-        "stars": 83
+        "stars": 84
       },
       "channels": [
         {
@@ -34506,7 +34599,7 @@
       "projectCreatedAt": "2024-08-04T12:15:06Z",
       "discoveryUrl": "https://github.com/feder-cr/invisible_playwright_mcp",
       "signal": {
-        "stars": 31625
+        "stars": 31627
       },
       "channels": [
         {
@@ -34531,7 +34624,7 @@
       "projectCreatedAt": "2026-04-11T07:38:18Z",
       "discoveryUrl": "https://github.com/EKKOLearnAI/ekko-studio",
       "signal": {
-        "stars": 11178
+        "stars": 11177
       },
       "channels": [
         {
@@ -34556,7 +34649,7 @@
       "projectCreatedAt": "2026-09-21T14:37:14Z",
       "discoveryUrl": "https://github.com/jev-chat/jev-chat-windows",
       "signal": {
-        "stars": 243
+        "stars": 249
       },
       "channels": [
         {
@@ -34606,7 +34699,7 @@
       "projectCreatedAt": "2026-09-21T23:11:47Z",
       "discoveryUrl": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
       "signal": {
-        "stars": 79
+        "stars": 90
       },
       "channels": [
         {
@@ -34631,7 +34724,7 @@
       "projectCreatedAt": "2026-09-20T16:01:49Z",
       "discoveryUrl": "https://github.com/2022hpsk/SpeakerMemR1",
       "signal": {
-        "stars": 61
+        "stars": 67
       },
       "channels": [
         {
@@ -34643,6 +34736,2206 @@
       "status": "candidate",
       "discoveredAt": "2026-09-22T16:57:04.881Z",
       "updatedAt": "2026-09-22T16:57:04.881Z",
+      "revisions": []
+    },
+    "f9027d80e820682e90d7e8a7": {
+      "id": "f9027d80e820682e90d7e8a7",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "title": "Better prompt caching for GPT-6",
+      "evidence": "publisher-feed",
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "feed": "openai",
+      "publisher": "OpenAI",
+      "channels": [
+        {
+          "id": "openai",
+          "url": "https://openai.com/news/rss.xml",
+          "evidence": "publisher-feed"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:11.715Z",
+      "updatedAt": "2026-09-22T21:18:11.715Z",
+      "revisions": []
+    },
+    "73461b3e97af0d93277a11c9": {
+      "id": "73461b3e97af0d93277a11c9",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "evidence": "publisher-feed",
+      "publishedAt": "2026-09-22T18:00:00.000Z",
+      "feed": "openai",
+      "publisher": "OpenAI",
+      "channels": [
+        {
+          "id": "openai",
+          "url": "https://openai.com/news/rss.xml",
+          "evidence": "publisher-feed"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:11.715Z",
+      "updatedAt": "2026-09-22T21:18:11.715Z",
+      "revisions": []
+    },
+    "60efaf744a4d6c2c20e9e8f1": {
+      "id": "60efaf744a4d6c2c20e9e8f1",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "title": "Priorities and principles for effective third party assessments",
+      "evidence": "publisher-feed",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "feed": "openai",
+      "publisher": "OpenAI",
+      "channels": [
+        {
+          "id": "openai",
+          "url": "https://openai.com/news/rss.xml",
+          "evidence": "publisher-feed"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:11.715Z",
+      "updatedAt": "2026-09-22T21:18:11.715Z",
+      "revisions": []
+    },
+    "e9f63aa1f7aaa02f4024a141": {
+      "id": "e9f63aa1f7aaa02f4024a141",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "evidence": "publisher-feed",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "feed": "huggingface",
+      "publisher": "Hugging Face",
+      "channels": [
+        {
+          "id": "huggingface",
+          "url": "https://huggingface.co/blog/feed.xml",
+          "evidence": "publisher-feed"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.275Z",
+      "updatedAt": "2026-09-22T21:18:12.275Z",
+      "revisions": []
+    },
+    "1f7763eadc62931f2ebbb4e2": {
+      "id": "1f7763eadc62931f2ebbb4e2",
+      "url": "https://openclaw.ai/blog/decision-models-in-openclaw/",
+      "title": "Decision models in OpenClaw",
+      "evidence": "publisher-feed",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "feed": "openclaw",
+      "publisher": "OpenClaw",
+      "channels": [
+        {
+          "id": "openclaw",
+          "url": "https://openclaw.ai/rss.xml",
+          "evidence": "publisher-feed"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.430Z",
+      "updatedAt": "2026-09-22T21:18:12.430Z",
+      "revisions": []
+    },
+    "cb68d125e7a390ad9b3340b8": {
+      "id": "cb68d125e7a390ad9b3340b8",
+      "url": "https://www.motherjones.com/politics/2026/09/openai-chatgpt-microsoft-copyright-legal-case-documents-revelations/",
+      "title": "AI Exec: We May Have Pulled Off \"The Largest Theft of Labor in Human History\"",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T21:15:28.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49808216",
+      "signal": {
+        "points": 1,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49808216",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "6476a0e237a68aeaec253ae1": {
+      "id": "6476a0e237a68aeaec253ae1",
+      "url": "https://claude.ai/artifact/HucaoGuaQqp9g9TZX97HGw",
+      "title": "Recorded, Not Proven",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T21:09:59.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49808150",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49808150",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "b7ed8a67ec90bfe4e39bd9cd": {
+      "id": "b7ed8a67ec90bfe4e39bd9cd",
+      "url": "https://relaticle.com/",
+      "title": "Relaticle, a self-hosted CRM where AI updates data only after your approval",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T21:06:26.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49808105",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49808105",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "accb7908262e9f02e6dbb28f": {
+      "id": "accb7908262e9f02e6dbb28f",
+      "url": "https://netm8.com/",
+      "title": "Show HN: NetM8 OS",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T21:03:47.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49808073",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49808073",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "5223f512f9351c76bcd2fb1a": {
+      "id": "5223f512f9351c76bcd2fb1a",
+      "url": "https://www.youtube.com/watch?v=9WjPdgOK-68",
+      "title": "Kotlin 2026: Layoffs, AI, Google – Is the Golden Age Over? Jake Wharton Explains [video]",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:57:00.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807970",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807970",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "5ab77d0c7711b9c955c2fa11": {
+      "id": "5ab77d0c7711b9c955c2fa11",
+      "url": "https://www.youtube.com/watch?v=VU3gABvwZCM",
+      "title": "Why AI Can't Replace You with Cory Doctorow [YouTube] [video]",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:55:48.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807956",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807956",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "2b2a03035a11d66b46cc9635": {
+      "id": "2b2a03035a11d66b46cc9635",
+      "url": "https://techstrong.ai/generative-ai/open-weight-ai-models-seize-token-lead-but-proprietary-systems-still-make-the-money/",
+      "title": "Open-Weight AI Models Seize Token Lead, but Proprietary Still Make the Money",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:55:18.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807951",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807951",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49807951",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "8ca76d8ab93be9a57185f9fa": {
+      "id": "8ca76d8ab93be9a57185f9fa",
+      "url": "https://substack.norabble.com/p/enough-reason-to-act",
+      "title": "Enough Reason to Act: AI safety needs policy not dismissal",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:52:42.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807918",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807918",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "78da0664e572526f2d06b21f": {
+      "id": "78da0664e572526f2d06b21f",
+      "url": "https://www.theregister.com/security/2026/09/22/zai-says-sorry-for-slurping-up-your-code-open-sources-zcode/5298300",
+      "title": "Z.ai says sorry for slurping up your code, open sources ZCode",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:07:08.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807362",
+      "signal": {
+        "points": 4,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807362",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "7cd408bd684e3e01c427ddfd": {
+      "id": "7cd408bd684e3e01c427ddfd",
+      "url": "https://www.lawfaremedia.org/article/bootstrapping-frontier-ai-governance-by-mutualizing-risk",
+      "title": "Bootstrapping Frontier AI Governance by Mutualizing Risk",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:05:30.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807340",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807340",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "f1fdd3b9114f11e41148a5b4": {
+      "id": "f1fdd3b9114f11e41148a5b4",
+      "url": "https://www.smh.com.au/politics/federal/australia-joins-call-for-ai-safeguards-amid-warnings-of-out-of-control-risks-20260922-p60zbe.html",
+      "title": "'Same sense of urgency': UN chief compares AI risk to nuclear weapons",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:05:12.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807335",
+      "signal": {
+        "points": 4,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807335",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "38c96b7cc8b5ac8bd4d29a26": {
+      "id": "38c96b7cc8b5ac8bd4d29a26",
+      "url": "https://memanto.ai/blog/your-agents-memory-needs-a-retention-policy",
+      "title": "Agent's Memory Needs a Retention Policy",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:04:52.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807330",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49807330",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807330",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "57017e4870ff7ee79b39a9b9": {
+      "id": "57017e4870ff7ee79b39a9b9",
+      "url": "https://proton.me/blog/meta-smart-glasses-ai-robots",
+      "title": "Are Meta's smart glasses training AI for robots?",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:01:20.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807281",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807281",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "d10c8f1dce4311600b691771": {
+      "id": "d10c8f1dce4311600b691771",
+      "url": "https://github.com/plasma-ai/fractal",
+      "title": "Open source tool for building hierarchical agent loops",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:55:16.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807198",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49807198",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49807198",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "6ed88935f4ddd86b6d1769a3": {
+      "id": "6ed88935f4ddd86b6d1769a3",
+      "url": "https://www.wsj.com/tech/ai/ai-leaders-are-standing-on-a-liability-landmine-736a8060",
+      "title": "AI Leaders Are Standing on a Liability Landmine",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:40:12.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806998",
+      "signal": {
+        "points": 8,
+        "comments": 3
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806998",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "6f7edd52ba8329dfa2d7012d": {
+      "id": "6f7edd52ba8329dfa2d7012d",
+      "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
+      "title": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:35:04.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806928",
+      "signal": {
+        "points": 3,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806928",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806928",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "326853121663ca227349a305": {
+      "id": "326853121663ca227349a305",
+      "url": "https://forta.com/blog/he-said-ai-sharpen-the-pitchforks",
+      "title": "He Said AI? Sharpen the Pitchforks",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:29:23.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806853",
+      "signal": {
+        "points": 1,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806853",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "b6c57627c6b310a8c1de958a": {
+      "id": "b6c57627c6b310a8c1de958a",
+      "url": "https://www.junkdrawer.ai/",
+      "title": "Show HN: junkDrawer.ai – Browse eBay with AI Agent and Dynamic Filtering",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:29:14.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806851",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806851",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806851",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "0be8595d4743b3db94ca78a3": {
+      "id": "0be8595d4743b3db94ca78a3",
+      "url": "https://github.com/discobox-ai/discobox",
+      "title": "DiscoBox: AI Coding Agents in Disposable Sandboxes",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:29:13.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806850",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806850",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806850",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "8b256a54c000b7b121a2c2a9": {
+      "id": "8b256a54c000b7b121a2c2a9",
+      "url": "https://www.vals.ai/blogs/faster-shortest-path-algorithm",
+      "title": "A Faster Shortest Path Algorithm",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:24:58.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806778",
+      "signal": {
+        "points": 27,
+        "comments": 5
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806778",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "0c4a202e0e308532015c8d4c": {
+      "id": "0c4a202e0e308532015c8d4c",
+      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+      "title": "GPT-6 Sol and Luna push the cost-efficiency frontier",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:21:48.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806724",
+      "signal": {
+        "points": 4,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806724",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "da0b0fe8c89d853758614fc7": {
+      "id": "da0b0fe8c89d853758614fc7",
+      "url": "https://www.nytimes.com/2026/09/05/opinion/ai-silicon-valley.html",
+      "title": "How Scared Should We Be of A.I.?",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:21:27.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806720",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806720",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "4dd16b7ee9507df863163828": {
+      "id": "4dd16b7ee9507df863163828",
+      "url": "https://www.politico.com/news/2026/09/22/trump-rejects-global-entity-ai-oversight-01087546",
+      "title": "Trump rejects global entity for AI oversight",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:09:53.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806558",
+      "signal": {
+        "points": 11,
+        "comments": 2
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806558",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "d346cd387327c76c27bc5367": {
+      "id": "d346cd387327c76c27bc5367",
+      "url": "https://autonomouscompany.substack.com/p/the-company-could-run-itself-it-still",
+      "title": "An autonomous AI company could run itself. It still couldn't find a market",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:09:35.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806554",
+      "signal": {
+        "points": 1,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806554",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "6a8ff551eff9f2b9ba1fd73d": {
+      "id": "6a8ff551eff9f2b9ba1fd73d",
+      "url": "https://chromewebstore.google.com/detail/maskr-private-ai-leak-gua/adncldmdaamhlpcccigfhdipjhpicebe",
+      "title": "Maskr – Catch personal data before it reaches AI chatbots (100% client-side)",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:07:57.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806518",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806518",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "cfca5617e80f340d4d475b3d": {
+      "id": "cfca5617e80f340d4d475b3d",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ex-anthropic-staffers-self-improving-161648217.html",
+      "title": "Mirendil in talks to raise $1B at $5B valuation led by Kleiner Perkins",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:04:20.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806453",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806453",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "a5b36cacee49813fb9bb038a": {
+      "id": "a5b36cacee49813fb9bb038a",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "title": "Overreliance on AI contributed to missile strike on Iran school – Pentagon",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:03:38.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806430",
+      "signal": {
+        "points": 238,
+        "comments": 125
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806430",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "ad1a14d5f56b2af350274063": {
+      "id": "ad1a14d5f56b2af350274063",
+      "url": "https://www.aljazeera.com/economy/2026/9/22/20-countries-propose-global-oversight-body-to-manage-ai-dangers",
+      "title": "Countries propose global oversight body to manage AI dangers",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:00:42.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806379",
+      "signal": {
+        "points": 4,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806379",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "b44bf1de34972ef3db7ef399": {
+      "id": "b44bf1de34972ef3db7ef399",
+      "url": "https://artificialanalysis.ai/models/gpt-6-sol",
+      "title": "GPT-6 Sol (Max) Intelligence, Performance and Price Analysis",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:54:40.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806301",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806301",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49806301",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "fbd805015523544b02e6b901": {
+      "id": "fbd805015523544b02e6b901",
+      "url": "https://artificialanalysis.ai/models/gpt-6-luna",
+      "title": "GPT-6 Luna (Max) Intelligence, Performance and Price Analysis",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:53:39.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806285",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806285",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49806285",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "98bf554a79ea0f6b752c9652": {
+      "id": "98bf554a79ea0f6b752c9652",
+      "url": "https://lightdrift.ai/",
+      "title": "Show HN: Lightdrift / Image search for AI agents through API and MCP",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:50:54.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806244",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806244",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806244",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "07c4cff5a1c1618f4e71dbf5": {
+      "id": "07c4cff5a1c1618f4e71dbf5",
+      "url": "https://www.government.nl/documents/2026/09/22/a-call-for-control-of-frontier-ai-models",
+      "title": "Joint statement by international leaders on control of frontier AI models",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:43:17.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806145",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806145",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49806145",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "c643daa126a8fedc63c8e616": {
+      "id": "c643daa126a8fedc63c8e616",
+      "url": "https://theconversation.com/why-banning-ai-in-the-classroom-will-not-be-enough-to-remedy-poor-reading-skills-in-a-post-literary-society-292326",
+      "title": "Why banning AI in the classroom will not be enough",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:41:30.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806127",
+      "signal": {
+        "points": 4,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806127",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "c9aa807eaaebbc42bb5d9fa2": {
+      "id": "c9aa807eaaebbc42bb5d9fa2",
+      "url": "https://a0flow.com/",
+      "title": "Show HN: a0flow — paid micro-APIs for AI agents, x402/USDC, no signup",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:34:29.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806046",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806046",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49806046",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "c9b4c9d67d80cdee5c71cb02": {
+      "id": "c9b4c9d67d80cdee5c71cb02",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high",
+      "title": "Claude Opus 5.5 (High Effort) Intelligence, Performance and Price Analysis",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:24:08.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805881",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805881",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805881",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "e9adc5c6329e780f16c5afb4": {
+      "id": "e9adc5c6329e780f16c5afb4",
+      "url": "https://github.com/mrsachindixit/agentixit",
+      "title": "Show HN: Notes on Agentic AI – A text-first guide for practicing engineers",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:19:28.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805807",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49805807",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805807",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "2e402ec52209a44cf84c0559": {
+      "id": "2e402ec52209a44cf84c0559",
+      "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+      "title": "Meta Tests Muse AI Agent Calls That Are Made by Humans in a Call Center",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:15:57.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805751",
+      "signal": {
+        "points": 5,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49805751",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805751",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "b58e66ef92f7ea2966e20c45": {
+      "id": "b58e66ef92f7ea2966e20c45",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "title": "Unreal Agent",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:15:53.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805748",
+      "signal": {
+        "points": 66,
+        "comments": 44
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49805748",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805748",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "032f961983694381dba5143f": {
+      "id": "032f961983694381dba5143f",
+      "url": "https://www.livecrew.tech/",
+      "title": "LiveCrew – a persistent AI exec team that argues back (with receipts)",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:08:11.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805643",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805643",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "2613991b1aa53dceebd321a3": {
+      "id": "2613991b1aa53dceebd321a3",
+      "url": "https://nanobanana25ai.net/",
+      "title": "Nano Banana 2.5: Faster, Better AI Images",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:04:43.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805567",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805567",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "7637bbffc8bc88041b5a2285": {
+      "id": "7637bbffc8bc88041b5a2285",
+      "url": "https://pressgazette.co.uk/news/prominent-art-therapist-quoted-by-vice-forbes-and-others-is-ai-generated/",
+      "title": "Prominent art therapist quoted by Vice, Forbes and others is AI-generated",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:53:20.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805400",
+      "signal": {
+        "points": 11,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805400",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "67ef477938df5b8130ca38e3": {
+      "id": "67ef477938df5b8130ca38e3",
+      "url": "https://buildradar.leapd.ai/",
+      "title": "Vibe code what prints money",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:53:15.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805397",
+      "signal": {
+        "points": 2,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805397",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "3030305a93e1518b383829cf": {
+      "id": "3030305a93e1518b383829cf",
+      "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html",
+      "title": "Graduating into Disruption: Labor Market Outcomes for AI-Exposed College Majors",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:47:57.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805304",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805304",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "af0033a97a261015e4e48740": {
+      "id": "af0033a97a261015e4e48740",
+      "url": "https://pixelcrew.ai/",
+      "title": "AI design tool from GitLab founder",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:44:22.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805250",
+      "signal": {
+        "points": 6,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805250",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "779eb2397e6f3e41281bff21": {
+      "id": "779eb2397e6f3e41281bff21",
+      "url": "https://thehill.com/homenews/administration/6104142-trump-renames-ai-super-intelligence/",
+      "title": "Trump says AI will be renamed 'super intelligence' in all US documents",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:40:59.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805202",
+      "signal": {
+        "points": 16,
+        "comments": 3
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49805202",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "0fc71ead9e60d33d3cda83ce": {
+      "id": "0fc71ead9e60d33d3cda83ce",
+      "url": "https://www.coveragecat.com/",
+      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:26:36.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804931",
+      "signal": {
+        "points": 28,
+        "comments": 19
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49804931",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804931",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "f54bac9f25bbb041eabeea0d": {
+      "id": "f54bac9f25bbb041eabeea0d",
+      "url": "https://reason.com/wp-content/uploads/2026/09/Are-the-Goverments-AI-Conversations-Accessible.pdf",
+      "title": "Are the Government's Conversations with AI Accessible Under Public Records Laws? [pdf]",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:22:48.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804860",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804860",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "e5c9cfb258fa16dc9f6e1356": {
+      "id": "e5c9cfb258fa16dc9f6e1356",
+      "url": "https://github.com/info-struct/kclaw",
+      "title": "Kclaw is a K8s-based IT-managed, multi-tenant AI assistant platform for teams",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:19:30.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804795",
+      "signal": {
+        "points": 2,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804795",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "653374de70e1e415edb14742": {
+      "id": "653374de70e1e415edb14742",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+      "title": "Grok 4.7 Scores 46 on AI Intelligence Index, Puts SpaceXAI in Top 4 Labs",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:12:58.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804685",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804685",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "321c1f0bfff39700f0c6d459": {
+      "id": "321c1f0bfff39700f0c6d459",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:03:54.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804516",
+      "signal": {
+        "points": 2,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804516",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "a0149a24853a4bb0656230c1": {
+      "id": "a0149a24853a4bb0656230c1",
+      "url": "https://www.coderabbit.ai/blog/opus-5-5-model-review",
+      "title": "Claude Opus 5.5 for code review: More catches, different misses",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:03:29.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804509",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804509",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804509",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "fcd73d9718016f35cb7760de": {
+      "id": "fcd73d9718016f35cb7760de",
+      "url": "https://www.youtube.com/watch?v=-HiIgV9ecAg",
+      "title": "The Myth of AI Doom, with Cal Newport",
+      "feed": "hn-ai",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:01:12.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804468",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-ai",
+          "url": "https://news.ycombinator.com/item?id=49804468",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:12.487Z",
+      "updatedAt": "2026-09-22T21:18:12.487Z",
+      "revisions": []
+    },
+    "2979aa8ab90a85b05583f76c": {
+      "id": "2979aa8ab90a85b05583f76c",
+      "url": "https://github.com/oren198/Strata",
+      "title": "Show HN: Cross-platform governed memory for a fleet of agents",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:27:18.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807583",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49807583",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49807583",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "48fd9c9a613a9e38251126a9": {
+      "id": "48fd9c9a613a9e38251126a9",
+      "url": "https://twitter.com/KinfishT/status/2102093551601684897",
+      "title": "Show HN: Riftri – copy-on-write Git worktrees for running agents in parallel",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:58:59.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807251",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49807251",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "df1e16c4b2c67057764d2518": {
+      "id": "df1e16c4b2c67057764d2518",
+      "url": "https://agent-manager.dev/writing/mouse-support/",
+      "title": "Agent manager now with mouse support",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:41:50.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807014",
+      "signal": {
+        "points": 5,
+        "comments": 2
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49807014",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "24e1aea537d2f6598e4ace01": {
+      "id": "24e1aea537d2f6598e4ace01",
+      "url": "https://github.com/AGGIB/Stroq",
+      "title": "Show HN: Which of your secrets did your coding agent send?",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:36:55.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806952",
+      "signal": {
+        "points": 1,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806952",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "d075a11a9513edc4f816e1cb": {
+      "id": "d075a11a9513edc4f816e1cb",
+      "url": "https://www.slivingdoc.dev/",
+      "title": "Show HN: Slivingdoc – High scale durable UTF-8 context manager for agents",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:18:07.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806683",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806683",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "e21b1a157dc5cfe4be4b69db": {
+      "id": "e21b1a157dc5cfe4be4b69db",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "title": "DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:14:41.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806630",
+      "signal": {
+        "points": 4,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806630",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "70cfba02750c437c777797cb": {
+      "id": "70cfba02750c437c777797cb",
+      "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+      "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents' data",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T19:01:20.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806393",
+      "signal": {
+        "points": 12,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806393",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "2523a51d702c2630a330ae3a": {
+      "id": "2523a51d702c2630a330ae3a",
+      "url": "https://cookbook.team/",
+      "title": "Show HN: Cookbook – a workspace for your team and agents",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:38:23.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806097",
+      "signal": {
+        "points": 1,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806097",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "fce73bee3509e7f402655357": {
+      "id": "fce73bee3509e7f402655357",
+      "url": "https://www.agentsview.io/",
+      "title": "AgentsView",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:32:17.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806012",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49806012",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "79d344f9f3d5fbdf06261fa2": {
+      "id": "79d344f9f3d5fbdf06261fa2",
+      "url": "https://github.com/Agents2AgentsAI/vla-edge",
+      "title": "Show HN: Optimized runtimes for three VLAs on Jetson Thor",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:26:37.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804932",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49804932",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804932",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "fa03a600a2c79d77c9770c84": {
+      "id": "fa03a600a2c79d77c9770c84",
+      "url": "https://nomoreda.com/",
+      "title": "Show HN: Nomoreda – Browser EDA, MCP-Friendly, KiCad/Altium-Compatible",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:24:57.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804897",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49804897",
+          "evidence": "discovery-only"
+        },
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804897",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "2de74aceac041f2dc81bb469": {
+      "id": "2de74aceac041f2dc81bb469",
+      "url": "https://news.ycombinator.com/item?id=49804573",
+      "title": "Ask HN: How do your teams share and distribute agent skills?",
+      "feed": "hn-agent",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:07:27.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804573",
+      "signal": {
+        "points": 2,
+        "comments": 2
+      },
+      "channels": [
+        {
+          "id": "hn-agent",
+          "url": "https://news.ycombinator.com/item?id=49804573",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:13.626Z",
+      "updatedAt": "2026-09-22T21:18:13.626Z",
+      "revisions": []
+    },
+    "528e9e909d1fc047f2f248f3": {
+      "id": "528e9e909d1fc047f2f248f3",
+      "url": "https://doi.org/10.22541/essoar.15008581/v1",
+      "title": "Cheap baselines match NASA and IBM's 366M-parameter solar flare model",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:28:45.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807616",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49807616",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "0d09fe922a73089bee1b7cf6": {
+      "id": "0d09fe922a73089bee1b7cf6",
+      "url": "https://news.ycombinator.com/item?id=49807413",
+      "title": "Ask HN: When is fine-tuning a small LLM worth it?",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:11:30.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807413",
+      "signal": {
+        "points": 4,
+        "comments": 4
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49807413",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "a0838873d1dd21507503b3ab": {
+      "id": "a0838873d1dd21507503b3ab",
+      "url": "https://github.com/sshah03/shrewd",
+      "title": "Show HN: Shrewd – what I learned distilling LLM labels into local classifiers",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T20:00:46.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49807276",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49807276",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "1fd65d37398c1b9eae2bfe55": {
+      "id": "1fd65d37398c1b9eae2bfe55",
+      "url": "https://astgl.com/p/local-laya-vs-hosted-jev-typed-decisions",
+      "title": "Does an open-weight decision model beat a hosted one? Jev vs. Laya",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:37:32.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49806080",
+      "signal": {
+        "points": 3,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49806080",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "b3268d0e6d32cc7ba5ddd9d7": {
+      "id": "b3268d0e6d32cc7ba5ddd9d7",
+      "url": "https://mimo.mi.com/models/en-US/mimo-v2.6-flash",
+      "title": "MiMo-v2.6-Flash",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:28:51.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805959",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805959",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "c6a5c858a0c208bde1e2ba78": {
+      "id": "c6a5c858a0c208bde1e2ba78",
+      "url": "https://news.ycombinator.com/item?id=49805911",
+      "title": "Tell HN: Substack obfuscating text to break reading mode",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:26:11.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805911",
+      "signal": {
+        "points": 4,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805911",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "764807d611f134cad34c52b0": {
+      "id": "764807d611f134cad34c52b0",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "title": "Faster and local Jev like model for Mac",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:20:21.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805823",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805823",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "1c57bcea1a20e68caafbd7d4": {
+      "id": "1c57bcea1a20e68caafbd7d4",
+      "url": "https://3dassetstudio.com/",
+      "title": "Show HN: Parametric, low-poly assets for BIM/CAD",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:13:16.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805715",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805715",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "b57f62c6d8763b9aab173362": {
+      "id": "b57f62c6d8763b9aab173362",
+      "url": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
+      "title": "Jev Creator: System One Models for Prod, Not God [video]",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:08:09.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805642",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805642",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "b3a00364ef8d88dd71adafce": {
+      "id": "b3a00364ef8d88dd71adafce",
+      "url": "https://gitlab.com/varad_7/ruun",
+      "title": "Show HN: RUUN – Tor Browser with a second, non-Tor mode in the same app",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T18:06:35.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805616",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805616",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "e3a5934e3172ec5228f45800": {
+      "id": "e3a5934e3172ec5228f45800",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "title": "GPT-6 Sol",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:58:57.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49805484",
+      "signal": {
+        "points": 6,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49805484",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "5e4af318d44545c4aa883c5b": {
+      "id": "5e4af318d44545c4aa883c5b",
+      "url": "https://github.com/ankit-aglawe/tinyjev",
+      "title": "TinyJev -Tiny Jev-style decision model that runs offline",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:23:02.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804866",
+      "signal": {
+        "points": 2,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804866",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "89582a1b90c20c37b50805f2": {
+      "id": "89582a1b90c20c37b50805f2",
+      "url": "https://github.com/statico/ttmux",
+      "title": "Show HN: Ttmux, a Modern and Fast Tmux",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:04:07.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804518",
+      "signal": {
+        "points": 2,
+        "comments": 1
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804518",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "4d070c5c8c674d4e919e7f73": {
+      "id": "4d070c5c8c674d4e919e7f73",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "title": "Claude Opus 5.5",
+      "feed": "hn-model",
+      "publisher": "Hacker News discovery",
+      "evidence": "discovery-only",
+      "publishedAt": "2026-09-22T17:03:22.000Z",
+      "discoveryUrl": "https://news.ycombinator.com/item?id=49804506",
+      "signal": {
+        "points": 1,
+        "comments": 0
+      },
+      "channels": [
+        {
+          "id": "hn-model",
+          "url": "https://news.ycombinator.com/item?id=49804506",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:14.465Z",
+      "updatedAt": "2026-09-22T21:18:14.465Z",
+      "revisions": []
+    },
+    "b6080ffe8de412aea44fa470": {
+      "id": "b6080ffe8de412aea44fa470",
+      "url": "https://github.com/hazelpe/ComptyAI",
+      "title": "hazelpe/ComptyAI",
+      "feed": "github-new-agents",
+      "publisher": "GitHub repository discovery",
+      "evidence": "discovery-only",
+      "publishedAt": null,
+      "projectCreatedAt": "2026-09-21T18:07:22Z",
+      "discoveryUrl": "https://github.com/hazelpe/ComptyAI",
+      "signal": {
+        "stars": 23
+      },
+      "channels": [
+        {
+          "id": "github-new-agents",
+          "url": "https://github.com/hazelpe/ComptyAI",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:15.335Z",
+      "updatedAt": "2026-09-22T21:18:15.335Z",
+      "revisions": []
+    },
+    "183c9b9faedd8fd1a79a4f4b": {
+      "id": "183c9b9faedd8fd1a79a4f4b",
+      "url": "https://github.com/kishormorol/cli-faq-shortcuts",
+      "title": "kishormorol/cli-faq-shortcuts",
+      "feed": "github-new-llm",
+      "publisher": "GitHub repository discovery",
+      "evidence": "discovery-only",
+      "publishedAt": null,
+      "projectCreatedAt": "2026-09-18T22:23:41Z",
+      "discoveryUrl": "https://github.com/kishormorol/cli-faq-shortcuts",
+      "signal": {
+        "stars": 100
+      },
+      "channels": [
+        {
+          "id": "github-new-llm",
+          "url": "https://github.com/kishormorol/cli-faq-shortcuts",
+          "evidence": "discovery-only"
+        }
+      ],
+      "status": "candidate",
+      "discoveredAt": "2026-09-22T21:18:20.295Z",
+      "updatedAt": "2026-09-22T21:18:20.295Z",
       "revisions": []
     }
   }
